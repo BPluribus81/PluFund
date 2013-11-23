@@ -1,5 +1,5 @@
-pt:
+en:
   will_paginate:
-    next: "Próxima »"
+    next: "Next »"
     page_gap: "..."
-    previous: "« Anterior"
+    previous: "« Previous"
