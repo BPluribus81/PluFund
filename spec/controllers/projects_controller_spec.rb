@@ -2,10 +2,11 @@
 require 'spec_helper'
 
 describe ProjectsController do
-  before{ Notification.unstub(:create_notification) }
-  before{ Notification.unstub(:create_notification_once) }
+  before{ Notification.unstub(:notify) }
+  before{ Notification.unstub(:notify_once) }
   before{ controller.stub(:current_user).and_return(current_user) }
-  before{ ::Configuration[:base_url] = 'http://catarse.me' }
+  before{ Configuration[:base_url] = 'http://catarse.me' }
+  before{ Configuration[:email_projects] = 'foo@bar.com' }
   render_views
   subject{ response }
   let(:project){ create(:project, state: 'draft') }
@@ -18,7 +19,7 @@ describe ProjectsController do
     end
 
     context "when no user is logged in" do
-      it{ should redirect_to new_user_session_path }
+      it{ should redirect_to new_user_registration_path }
     end
 
     context "when user is logged in" do
@@ -52,12 +53,33 @@ describe ProjectsController do
     end
   end
 
+  describe "GET send_to_analysis" do
+    let(:current_user){ project.user }
+
+    before do
+      get :send_to_analysis, id: project.id, locale: :pt
+      project.reload
+    end
+
+    it { project.in_analysis?.should be_true }
+  end
+
   describe "GET index" do
     before do
       controller.stub(:last_tweets).and_return([])
       get :index, locale: :pt
     end
     it { should be_success }
+
+    context "with referal link" do
+      subject { controller.session[:referal_link] }
+
+      before do
+        get :index, locale: :pt, ref: 'referal'
+      end
+
+      it { should == 'referal' }
+    end
   end
 
   describe "GET new" do
@@ -80,6 +102,8 @@ describe ProjectsController do
         project.reload
         project.name.should == 'My Updated Title'
       }
+
+      it{ should redirect_to project_by_slug_path(project.permalink, anchor: 'edit') }
     end
 
     shared_examples_for "protected project" do
@@ -159,18 +183,15 @@ describe ProjectsController do
       before{ get :show, permalink: project.permalink, update_id: update.id, locale: :pt }
       it("should assign update to @update"){ assigns(:update).should == update }
     end
-
-    context "when we have permalink and do not pass permalink in the querystring" do
-      let(:project){ create(:project, permalink: 'test') }
-      before{ get :show, id: project, locale: :pt }
-      it{ should redirect_to project_by_slug_path(project.permalink) }
-    end
   end
 
   describe "GET video" do
     context 'url is a valid video' do
       let(:video_url){ 'http://vimeo.com/17298435' }
-      before { get :video, locale: :pt, url: video_url }
+      before do
+        VideoInfo.stub(:get).and_return({video_id: 'abcd'})
+        get :video, locale: :pt, url: video_url
+      end
 
       its(:body){ should == VideoInfo.get(video_url).to_json }
     end
@@ -178,7 +199,7 @@ describe ProjectsController do
     context 'url is not a valid video' do
       before { get :video, locale: :pt, url: 'http://????' }
 
-      its(:body){ should == {video_id: false}.to_json }
+      its(:body){ should == nil.to_json }
     end
   end
 end

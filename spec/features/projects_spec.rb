@@ -3,7 +3,7 @@
 require 'spec_helper'
 
 describe "Projects" do
-  let(:project){ FactoryGirl.build(:project) }
+  let(:project){ build(:project) }
 
   before {
     #NOTE: Weird bug on edit project test
@@ -18,39 +18,39 @@ describe "Projects" do
 
   describe "home" do
     before do
-      FactoryGirl.create(:project, state: 'online', online_days: 30, online_date: Time.now)
-      FactoryGirl.create(:project, state: 'online', online_days: -30)
+      create(:project, state: 'online', online_days: 30, online_date: Time.now)
+      create(:project, state: 'online', online_days: 30, online_date: 7.days.ago)
       visit root_path(locale: :pt)
     end
 
     it "should show recent projects" do
-      recent = all(".recents_projects.list .project")
+      recent = all(".recents_projects.list .project-box")
       recent.should have(1).items
     end
   end
 
   describe "explore" do
     before do
-      FactoryGirl.create(:project, name: 'Foo', state: 'online', online_days: 30, recommended: true)
-      FactoryGirl.create(:project, name: 'Lorem', state: 'online', online_days: 30, recommended: false)
+      create(:project, name: 'Foo', state: 'online', online_days: 30, recommended: true)
+      create(:project, name: 'Lorem', state: 'online', online_days: 30, recommended: false)
       visit explore_path(locale: :pt)
-      sleep 3
+      sleep 4
     end
     it "should show recommended projects" do
-      recommended = all(".results .project")
+      recommended = all(".results .project-box")
       recommended.should have(1).items
     end
   end
 
   describe "search" do
     before do
-      FactoryGirl.create(:project, name: 'Foo', state: 'online', online_days: 30, recommended: true)
-      FactoryGirl.create(:project, name: 'Lorem', state: 'online', online_days: 30, recommended: false)
-      visit explore_path(anchor: :search) + '/Lorem'
+      create(:project, name: 'Foo', state: 'online', online_days: 30, recommended: true)
+      create(:project, name: 'Lorem', state: 'online', online_days: 30, recommended: false)
+      visit explore_path(pg_search: 'Lorem')
       sleep 4
     end
     it "should show recommended projects" do
-      recommended = all(".results .project")
+      recommended = all(".results .project-box")
       recommended.should have(1).items
     end
   end
@@ -58,8 +58,10 @@ describe "Projects" do
 
   describe "new and create" do
     before do
+      project # need to build the project to create category before visiting the page
       login
       visit new_project_path(locale: :pt)
+      sleep 1
     end
 
     it "should present the form and save the data" do
@@ -73,12 +75,11 @@ describe "Projects" do
       end
       check 'project_accepted_terms'
       find('#project_submit').click
-      #Project.first.name.should == project.name
     end
   end
 
   describe "edit" do
-    let(:project) { FactoryGirl.create(:project, online_days: 10, state: 'online', user: current_user) }
+    let(:project) { create(:project, online_days: 10, state: 'online', user: current_user) }
 
     before do
       login

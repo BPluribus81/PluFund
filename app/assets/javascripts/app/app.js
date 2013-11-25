@@ -2,7 +2,7 @@ var App = window.App = Skull.View.extend({
   el: 'html',
 
   events: {
-    "click a.my_profile_link" : "toggleMenu"
+    "click a.user-menu" : "toggleMenu"
   },
 
   beforeActivate: function(){
@@ -13,14 +13,16 @@ var App = window.App = Skull.View.extend({
   activate: function(){
     this.$(".best_in_place").best_in_place();
     this.$dropdown = this.$('.dropdown.user');
-    this.$flash = this.$('.flash');
     this.flash();
     this.notices();
     Backbone.history.start({pushState: false});
+    this.$('input[data-mask]').each(this.maskElement);
   },
 
   flash: function() {
     var that = this;
+    this.$flash = this.$('.flash');
+
     setTimeout( function(){ that.$flash.slideDown('slow') }, 100)
     if( ! this.$('.flash a').length) setTimeout( function(){ that.$flash.slideUp('slow') }, 16000)
     $(window).click(function(){ that.$('.flash a').slideUp() })
@@ -33,8 +35,14 @@ var App = window.App = Skull.View.extend({
     $('.notice-box a.notice-close').on('click', function(){ that.$('.notice-box').fadeOut('slow') })
   },
 
+  maskElement: function(index, el){
+    var $el = this.$(el);
+    $el.mask($el.data('mask') + '');
+  },
+
   toggleMenu: function(){
-    this.$dropdown.slideToggle('slow');
+    this.$dropdown.slideToggle('fast');
+    return false;
   }
 });
 

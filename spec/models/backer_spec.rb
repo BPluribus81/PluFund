@@ -40,40 +40,6 @@ describe Backer do
     it { should have(3).itens }
   end
 
-  describe ".not_deleted" do
-    before do
-      2.times { create(:backer, state: 'pending') }
-      3.times { create(:backer, state: 'confirmed') }
-      5.times { create(:backer, state: 'deleted') }
-    end
-
-    subject { Backer.not_deleted }
-
-    it("should return only the backers that is not deleted") do
-      subject.should have(5).itens
-    end
-  end
-
-  describe ".by_state" do
-    before do
-      2.times { create(:backer, state: 'confirmed') }
-      create(:backer, state: 'waiting_confirmation')
-      create(:backer, state: 'canceled')
-    end
-
-    it "should return all confirmed backers" do
-      Backer.by_state('confirmed').should have(2).itens
-    end
-
-    it "should return all waiting confirmation backers" do
-      Backer.by_state('waiting_confirmation').should have(1).itens
-    end
-
-    it "should return all canceled backers" do
-      Backer.by_state('canceled').should have(1).itens
-    end
-  end
-
   describe ".can_cancel" do
     subject { Backer.can_cancel}
 
@@ -101,186 +67,87 @@ describe Backer do
     end
   end
 
-  describe "#project_should_be_online" do
+  describe "#update_current_billing_info" do
+    let(:backer) { build(:backer, user: user) }
+    let(:user) {
+      build(:user, {
+        address_street: 'test stret',
+        address_number: '123',
+        address_neighbourhood: 'test area',
+        address_zip_code: 'test zipcode',
+        address_city: 'test city',
+        address_state: 'test state',
+        phone_number: 'test phone',
+        cpf: 'test doc number'
+      })
+    }
     subject{ backer }
-    context "when project is draft" do
-      let(:backer){ build(:backer, project: create(:project, state: 'draft')) }
-      it{ should_not be_valid }
+    before do
+      backer.update_current_billing_info
     end
-    context "when project is waiting_funds" do
-      let(:backer){ build(:backer, project: create(:project, state: 'waiting_funds')) }
-      it{ should_not be_valid }
-    end
-    context "when project is successful" do
-      let(:backer){ build(:backer, project: create(:project, state: 'successful')) }
-      it{ should_not be_valid }
-    end
-    context "when project is online" do
-      let(:backer){ build(:backer, project: unfinished_project) }
-      it{ should be_valid }
-    end
-    context "when project is failed" do
-      let(:backer){ build(:backer, project: create(:project, state: 'failed')) }
-      it{ should_not be_valid }
-    end
+    its(:address_street){ should eq(user.address_street) }
+    its(:address_number){ should eq(user.address_number) }
+    its(:address_neighbourhood){ should eq(user.address_neighbourhood) }
+    its(:address_zip_code){ should eq(user.address_zip_code) }
+    its(:address_city){ should eq(user.address_city) }
+    its(:address_state){ should eq(user.address_state) }
+    its(:address_phone_number){ should eq(user.phone_number) }
+    its(:payer_document){ should eq(user.cpf) }
   end
 
-  describe "#should_not_back_if_maximum_backers_been_reached" do
-    let(:reward){ create(:reward, maximum_backers: 1) }
-    let(:backer){ build(:backer, reward: reward, project: reward.project) }
-    subject{ backer }
-    context "when backers count is lower than maximum_backers" do
-      it{ should be_valid }
+  describe "#update_user_billing_info" do
+    let(:backer) { create(:backer) }
+    let(:user) { backer.user }
+    let(:backer_attributes) {
+      {
+        address_street: backer.address_street,
+        address_number: backer.address_number,
+        address_neighbourhood: backer.address_neighbourhood,
+        address_zip_code: backer.address_zip_code,
+        address_city: backer.address_city,
+        address_state: backer.address_state,
+        phone_number: backer.address_phone_number,
+        cpf: backer.payer_document
+      }
+    }
+
+    before do
+      user.should_receive(:update_attributes).with(backer_attributes)
     end
-    context "when backers count is equal than maximum_backers" do
-      before{ create(:backer, reward: reward, project: reward.project, state: 'confirmed') }
-      it{ should_not be_valid }
-    end
+
+    it("should update user billing info attributes") { backer.update_user_billing_info}
   end
 
-  describe "#reward_must_be_from_project" do
-    let(:backer){ build(:backer, reward: reward, project: unfinished_project) }
-    subject{ backer }
-    context "when reward is from the same project" do
-      let(:reward){ create(:reward, project: unfinished_project) }
-      it{ should be_valid }
-    end
-    context "when reward is not from the same project" do
-      let(:reward){ create(:reward) }
-      it{ should_not be_valid }
-    end
-  end
+  describe '#recommended_projects' do
+    subject{ backer.recommended_projects }
+    let(:backer){ create(:backer) }
 
-  describe "#value_must_be_at_least_rewards_value" do
-    let(:reward){ create(:reward, minimum_value: 500) }
-    let(:backer){ build(:backer, reward: reward, project: reward.project, value: value) }
-    subject{ backer }
-    context "when value is lower than reward minimum value" do
-      let(:value){ 499.99 }
-      it{ should_not be_valid }
-    end
-    context "when value is equal than reward minimum value" do
-      let(:value){ 500.00 }
-      it{ should be_valid }
-    end
-    context "when value is greater than reward minimum value" do
-      let(:value){ 500.01 }
-      it{ should be_valid }
-    end
-  end
-
-  describe 'state_machine' do
-    let(:backer) { create(:backer, state: initial_state) }
-    let(:initial_state){ 'pending' }
-
-    describe 'initial state' do
-      let(:backer) { Backer.new }
-      it('should be pending') { backer.pending?.should be_true }
-    end
-
-    describe '#pendent' do
-      before { backer.pendent }
-      context 'when in confirmed state' do
-        let(:initial_state){ 'confirmed' }
-        it("should switch to pending state"){ backer.pending?.should be_true}
-      end
-    end
-
-    describe '#confirm' do
-      before { backer.confirm }
-      it("should switch to confirmed state") { backer.confirmed?.should be_true }
-    end
-
-    describe "#push_to_trash" do
-      before { backer.push_to_trash }
-      it("switch to deleted state") { backer.deleted?.should be_true }
-    end
-
-    describe '#waiting' do
-      before { backer.waiting }
-      context "when in peding state" do
-        it("should switch to waiting_confirmation state") { backer.waiting_confirmation?.should be_true }
-      end
-      context 'when in confirmed state' do
-        let(:initial_state){ 'confirmed' }
-        it("should not switch to waiting_confirmation state") { backer.waiting_confirmation?.should be_false }
-      end
-    end
-
-    describe '#cancel' do
-      before { backer.cancel }
-      it("should switch to canceled state") { backer.canceled?.should be_true }
-    end
-
-    describe '#request_refund' do
+    context "when we have another projects in the same category" do
       before do
-        BackerObserver.any_instance.stub(:notify_backoffice)
-        backer.request_refund
+        @recommended = create(:project, category: backer.project.category)
+        # add a project successful that should not apear as recommended
+        create(:project, category: backer.project.category, state: 'successful')
       end
-
-      context 'when backer is confirmed' do
-        let(:initial_state){ 'confirmed' }
-        it('should switch to requested_refund state') { backer.requested_refund?.should be_true }
-      end
-
-      context 'when backer is not confirmed' do
-        it('should not switch to requested_refund state') { backer.requested_refund?.should be_false }
-      end
+      it{ should eq [@recommended] }
     end
 
-    describe '#refund' do
+    context "when another user has backed the same project" do
       before do
-        backer.refund
+        @another_backer = create(:backer, project: backer.project)
+        @recommended = create(:backer, user: @another_backer.user).project
+        # add a project successful that should not apear as recommended
+        create(:backer, user: @another_backer.user, project: successful_project)
+        successful_project.update_attributes state: 'successful'
       end
-
-      context 'when backer is confirmed' do
-        let(:initial_state){ 'confirmed' }
-        it('should switch to refunded state') { backer.refunded?.should be_true }
-      end
-
-      context 'when backer is requested refund' do
-        let(:initial_state){ 'requested_refund' }
-        it('should switch to refunded state') { backer.refunded?.should be_true }
-      end
-
-      context 'when backer is pending' do
-        it('should not switch to refunded state') { backer.refunded?.should be_false }
-      end
+      it{ should eq [@recommended] }
     end
   end
 
-
-  describe '.pending_to_refund' do
-    subject { Backer.pending_to_refund }
-
-    context 'when backer as requested refund' do
-      before do
-        create(:backer, state: 'confirmed')
-        create(:backer, state: 'refunded')
-        create(:backer, state: 'requested_refund')
-      end
-
-      it { should have(1).item }
-    end
-  end
-
-  describe '.in_time_to_confirm' do
-    subject { Backer.in_time_to_confirm}
-
-    context 'when we have backers in waiting confirmation' do
-      before do
-        create(:backer, state: 'waiting_confirmation')
-        create(:backer, state: 'waiting_confirmation')
-        create(:backer, state: 'pending')
-      end
-
-      it { should have(2).item }
-    end
-  end
 
   describe ".can_refund" do
-    subject{ Backer.can_refund.all }
+    subject{ Backer.can_refund.load }
     before do
+      create(:backer, state: 'confirmed', credits: true, project: failed_project)
       valid_refund
       sucessful_project_backer
       unfinished_project

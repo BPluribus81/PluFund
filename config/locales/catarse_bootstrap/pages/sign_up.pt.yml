@@ -10,8 +10,11 @@ pt:
       form:
         labels:
           show_password: 'Exibir senha'
+          name: 'Nome completo'
+          password: 'Senha'
+          newsletter: 'Quero receber novidades do Catarse via email'
         hint:
-          password_length: 'Mínimo de 6 caracteres'
+          password_length: 'Mínimo 6 caracteres'
         inputs:
-          submit: 'Efetuar Cadastro'
+          submit: 'Efetuar cadastro'
           facebook: 'Entrar com Facebook'

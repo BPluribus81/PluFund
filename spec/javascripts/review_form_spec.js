@@ -2,7 +2,26 @@ describe("ReviewForm", function() {
   var view;
 
   beforeEach(function() {
-    view = new App.views.ReviewForm({ el: $('<form></form>')});
+    view = new App.views.ReviewForm({ el: $('<form style="display:none;"></form>')});
+  });
+
+  describe("#activate", function() {
+    describe("when live_in_brazil is not checked", function(){
+      var el;
+      beforeEach(function(){
+        el = { length: 0, on: function(){}, hide: function(){} };
+        spyOn(view, '$').andReturn(el);
+        spyOn(el, "hide");
+        view.activate();
+      });
+
+      it("should fadeOut address_data fieldset", function(){
+        expect(view.$).wasCalledWith("#live_in_brazil:checked");
+        expect(view.$).wasCalledWith("fieldset.address_data");
+        expect(el.hide).wasCalled();
+      });
+
+    });
   });
 
   describe("#validate", function() {
@@ -10,7 +29,8 @@ describe("ReviewForm", function() {
       var valid;
 
       beforeEach(function() {
-        view.$el.html('<input required="required"/><input />');
+        view.$el.append('<input required="required"/><input />');
+        $('html').append(view.$el);
         var $inputs = view.$('input');
         spyOn(view, "$").andReturn($inputs);
         valid = view.validate();
