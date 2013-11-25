@@ -2,18 +2,296 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f80f52d2315a0d16f30b7daba3a93722.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/chartkick-d5d851fb6ec87284a634b6d0535bec1f.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/admin.en.yml" afterPath="$PROJECT_DIR$/config/locales/admin.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/admin.pt.yml" afterPath="$PROJECT_DIR$/config/locales/admin.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/channels.en.yml" afterPath="$PROJECT_DIR$/config/locales/channels.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/channels.pt.yml" afterPath="$PROJECT_DIR$/config/locales/channels.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.pt.yml" afterPath="$PROJECT_DIR$/config/locales/devise.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt.yml" afterPath="$PROJECT_DIR$/config/locales/pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7a07e7c553c1aa61548a24c10785fdae.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f80f52d2315a0d16f30b7daba3a93722.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/back_icons-9e20de6a8acd4bf18355c476b19db191.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/back_statistics-0708aef0d7cb4e7615321783fad338c4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/backed_icon-ac82c8969a0910a6a27ac2d34e8682e6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/backer_city-9b30a64dfad4a05029f413ecf7bc885f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/backer_info-6054958f6fb0bafd629ed5afe9df8cca.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/backer_info-e62bbbae54f9702c88ee2da9366d0c5d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_bootstrap/banner-3years-2dbdd1f69ef59a826048939afcb94606.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/channels/banner-6af01a3daa6695e95ac714c94c4d2722.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/channels/banner_tile-4bf4fa3e253643036038d5615425513d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_air-1355a3c9012c45628765bf5e0f9b719b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_explore-9b046a6edd4c1f1ef30a98a2fa44bd00.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_finish-8de6cb878558707b2fbb0a9a4799ed81.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_guardian-14733ab7059d28c7d86177754b3a6fd0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_heartbacker-d1fc1fa41420e542101c4744c57ce992.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_money-dea31704a005d0918b2e0a8a0d962a1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_moneytag-43fffb6d0153ee982020191aa184b027.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_requirements-6e2a39701f29d0ad77a889459a47af84.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_rewards-268f2f446682a841881562e3eb79b6cc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_s3-e5e783edb668d4d2585ec807642c6513.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_send-ca7f14457fe13a29de798f88abfbd1e3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_steps-c5ba31b55bb5328798601b81bc4e489d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips-ca70c3fb8adf377fdc7dce0dfa02b5c4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips1-ab2ed5ea6ad509b2dd1889618f4153c0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips2-fab420ceddf261d4f2c33c2166792882.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips3-64ff9625540a60db6f46aafd3b14c806.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips4-201ea96d13df17c595581de847bbae9d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips5-6319aa0285333bb9277ff1dbde13fedc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips6-5a0fee2d19dab8237da9f53e9b6bf4e1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips7-7d9fb42288fe02cfaf6315e77c6049ca.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bg_tips8-345a474c86f952ad518c695e2dc8a541.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/blog_icon17x14-8d2ad95cd8d26abac06e3875ad8d2627.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/boleto_icon-d1a508c8ac17707bcb28f9e11f3bcb7c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bot_guidelines-aff09f88250f6765e862397bca7d926d.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bot_profileUser-4864dbd653e1789be5429fb234d29e42.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_bootstrap/botao_bemvindo_EN_big-7914fd4ad3404164d449372860955a86.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_bootstrap/botao_bemvindo_PT_big-3f2434ab0b1f306a78de554c367676e8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/box_alert-099b140630b45b39f7c9069888a5d316.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/box_download-f41d01a1174dbb229ab14f42756cf145.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/bullet-green-d08c12f1019fe9be9c7170e4d3db703f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/button_explore-38171cc6e6d5d8bf5be4cada257bf9d1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/button_send-7e1f4af006018eab2270e7dce8718716.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/channels/capa_asas-cf1b5afb75e020b7bf45aba828ccf4a1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_bootstrap/catarse-assets-8bcacf5ade0558a89283db0cc7002794.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_moip-09124d08dfbe0727a8c690b3168a981a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/category_icon14x14-a89995354af4389f784b5492dd7c1747.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/cc_icon-9d8a9a1dc6287bea291730d570997be7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/chartkick-d5d851fb6ec87284a634b6d0535bec1f.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/browser_logos/chrome-938d94e7d8b16abc1529c32edb8ef627.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/comments_icon28x18-a8c3d7942b4fbfbe3b0ff1744a7da04f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/confirmed_icon-eb0b6e9282bb45555c7ae58c105c0de3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delete_16-a2e23661fdf46b18c21927d21604c9c9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/delete_16-a2e23661fdf46b18c21927d21604c9c9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/dropdown-6c2f583c0d978881a59d6cc0e3b93422.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/embed_icon19x9-739f0f75a31139f1af4fd3b750e5d17a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/explore_icon23x15-26262c96a1b60cb61ab1da4be9c4f4ef.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/auth/facebook_64-d5cef8d711facf1e287c460cb90ff6e7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/facebook_black_icon-0f59ce06a05c2f19da7eb8eb09fa5fc0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/facebook_icon13x26-8b42adae878b8d3dba1e17ae6e63241f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_share-c12326d79f0ed8f4893650860ee79c04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/faq_icon18x18-95114f18d81d4d5549a03ca4de438850.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/favicon-859de950c965520bb9b95854e399b6c6.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_bootstrap/feedback-close-57f43030eeb37a2eb4d0d4342416730d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_bootstrap/feedback-key-dadc380c027cdd1e6cba95fa8482081a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_bootstrap/feedback-open-bff23df53ea39da2620f0dc581c28dc9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/browser_logos/firefox-5244e1a2157d396e9401614a9ce9b3b1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagCity-acac153e9d723a06d8cac942e0e71759.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagCityMg-e73332c5ba833fa0f0f00cf3118d31cb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagCityPoa-8bbc967046dcb503b50fe2df833e8cd9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagCityRJ-d23dbf723f72f856a8a5cf86fc3a7f9e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagName-24141e4b4e583a0815c012cb530ff93d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagNameMg-addfdb88b4f641af8cb22f3dfa2b741f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagNamePoa-4ba0edfa3feaaad38274f82283449744.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagNameRJ-ca23fd28673617186b6cdabce0c3dc00.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/flagNameSP-24141e4b4e583a0815c012cb530ff93d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/gift-3909eb5b475f2020d0a33f19e7e714b4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/gift-reward-33176c173c2d9aa896e75b84187c3e06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/glyphicons-halflings-48300e96722373895db377f3c5851cad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/glyphicons-halflings-white-68ab5a28d93cd953685931bfddde90f5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/goal_icon36x17-47c5c4c4bf06cccca1ef873ef92ae8ee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gravatar-786aa9ccb0360a32fb0c8175ae35b9fe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/channels/header_system-5804b310d59b43b426e0e9b346127676.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/heart_icon17x14-7da51458c3ef56cfaed2f763317de88a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icomoon-355f2af2a642f596fbf34c8751261549.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icomoon-66a00eeca044a0a4ab53716b8f45fb5f.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icomoon-67bab6fc324af881f5fba71a0a2004b9.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon-fb-48edc0d89213b75b97c890dd5c9785c4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon-tw-453a7feccc80c294759d6faa64184fd4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icon_alertheader-5c23ce3a96d9161e174e5e5efc3ef3f3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_backerstep1-046912b7503612b908d14ec93d7c1e88.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_backerstep2-cad19c381a6c165f8613a1ac08b9729c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_backerstep3-e3239666f522db11956e85a3919bdb07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_backerstep4-fa53e95c809f60799ec88193d9aad7e5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_backerstep5-46484586f2fbbed7adf4af0811ee92be.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_backersucessfull-299b18e1622aeb126ebe1a4a5a8f3873.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_backproject-1d6a83d6f2261996293842eb8041a05d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_bold-4f0a54ce987015fffb4e1c87e26a1f00.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_calc-4fc5c70d32fc95ed438f49b2f44f6fc7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_colective-e81dd0561386eafba3f848d75688e125.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_creative-0966b41d319299e7600f7233d840e346.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_credits-73a3dee832ebf359478bf41dd0f5391b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_creditsmoney-99c3729091f9693dae4dfd4517f3b2e1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_datestart-b86dfa916adddd45a1e015782df61098.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_donation-7149dc0039f44fe84785d1ec413a2e73.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_faq-ebcaa6534bcc33b075a30faa2146cc61.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_gift-2e43d16babbd93585e9f603a15b2ed58.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_guidebacker-16c5463207334ad05089d0c16e22c6df.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_guidelinesstart-77dc6e6ec2375f3f5a2146f6ccd7c149.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_heart-7a2444fa271af3bd7b5a1e6a250cf585.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_italic-d1072bcc9915e633451f4deef671a319.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_licosts-c2a4ba96813ebfd87b78b0d2991de2c1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_limagic-62c4ebb74d36a03b4df058eefd0a4cd3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_limoney-0cf9fe3b640417d93d6dde120568e439.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_link-a8dea769be4c0cf55724230cca24cee9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_linktext-4de9f8bff1139629a74713b4cedde19f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_liwork-466160e53811b142fae0c221ba3aacc9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_liwork~imageoptim-466160e53811b142fae0c221ba3aacc9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_logo-8af5b3f2e7fabc67c94c432ae7b95506.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_media-d0eb67675e89be34e6edb5c911c21c01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_new-3a8d877040182272a7ae5fc41ae77995.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_nonprofit-cb7d67dd6af47c183ba74f7621792873.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_projectnotfunded-01e6437433bac7310b44a0dd568bd70d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_projectsuccess-37dbc8ad2174ad80fe249ec71068551b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_refreshproject-c1fd3d186fafdaa9ac3a0c2fb7b09c33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_rewards-199326bf5aaf3ef30dcd49c4feea4586.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_social-e79894cd6af771e993ff7f48be2f875c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_step1-f7bd9ec7fe4cc7f417c1bb94330c9f7c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_step2-c21b0afbd9191fa3e876e6c4e0b1fa81.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_step3-42962b4c1d06d0a851b8437c4f8c1135.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_step4-c7529531a9876080281e2b42ac88bfd3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_submitbacker-531f34b9c7a6175a983fc568c6deb1ec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_tag-faa7a9b4ca14c9161e5cc980817cc19c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_time-eb08dba603c9477481be7e6f4af867d3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_url-c07806f9f4e9871e25e1900f66a94b09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_video-2d6cc0c1fc2863aa55b6a9b86518ec1e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/icon_vimeo-17c262eea11f84f9450a12ee8d0eba75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/institutional_video_icon16x16-dd4409cb659118f6432dee9f66518920.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/label_green-eeee1a71de8d8a960599a1f99b9b4534.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/label_green_list-56beb119be55822ebead8ba954e64e8c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/label_orange-91a230742b104db75d3dfaf528861135.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/label_orange_list-0d5136be8aca55b2da5eb12e6aefb50c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/link_icon14x14-5dd01e004d0a57bc8609ecb64d934b82.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/list_cards-91c31d5a883e3e1e6b914d0893afb6cd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/loading-07a6a6d92b3cb4e79d19429ac188f035.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_with_facebook_button310x60-152240009ef7f64f4dcedd340aa4f3e9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_with_facebook_button356x60-f330453419017d6dcc9042dd2b7ef83a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-00727f9c2a56ff32c31b88fb43a7cf4d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/logo-2a52b6ca638f661ddeb1af88a67f652d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/logo-fb-3cbb06f728f0f079282893c581963dd0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/channels/logo_asas_notificacao-1f21303e92d57b5a40dcc762b7e8c0a8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_bootstrap/logo_icon_catarse-3497d67b23ae3cd1bff95d43653c6fa4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/min_star12x11-461d8d7c55957550731489f91942c87a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/moip-choice-e4ed89f95c9f1ee80c3a7e3bd084cd16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/newsletter_icon18x15-381cb60c2886925e6668afde830c6614.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/not_successful.en-28ca6095c5537641337d914264038545.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/not_successful.es-b20f086f653aacbe03ebb1ef01bd3c19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/not_successful.pt-9f6ccfc4bcf3a2b95a337896a72bff3c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/payment_account-e358ae25cd29abf9919140381d940cc7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/payment_boleto-9c4033f85ea64a8951d5c2068fc2b343.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/payment_cards-749ea91b51fbef8c0b48552fa2a206bd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/paypal-choice-ec8c7c8a87e1e461b1dd97d4a17d05c9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pencil_16-44c5ac8e96628f4272493c84046e7ddb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/pencil_16-44c5ac8e96628f4272493c84046e7ddb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/profile_icon19x14-1c62d91c8659cb2911d271c2702fe227.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/project_about-c01c77e396f2225537422f319349c8db.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/project_about-f43646541094f8653c19314b5728ae23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/project_menu_selected-f044df1da7d200f2e1400eadcb0fdebc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/reward_box-17d9f37bf03dcbd1741637841a4fcde0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/reward_count_icon18x17-be2db6d9f9c006041450fce7d4cc0872.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rewards_left_border-740456d25e082e5a8812ee04c67bff8b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rewards_right_border-f15a86281154485e2c10765fa15fa340.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/files/default/runit-2.1.1.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/files/default/runsvdir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/schedule_icon19x22-ddd8fc36ff2476c318f9c7a265fa563c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/sidebar_backers_icon26x19-0fc23f11061c00fac1fb3ac59d9478f8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/social_big_icons-5c5ee95a10b2c7a38c9d2e766dafc8a3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/social_icons-2c237b0aba7e7d20a1ec9e9c695c39b0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/submit_back_icon25x22-643c2581672d5b74c4affc43036ab28f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/submit_project_icon25x13-8e88c112048caab540be9697ed667277.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/channels/successful-8b5bf7754cf6bba70f501e586ea38c22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/successful.en-b3f71d7771ba44c01fdb0f8c05f2ba91.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/successful.es-1c7837bda9ed8149726392a48313c2ef.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/successful.pt-394fb6e69a65296ecd0d9a06f781bb65.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tick_16-49c6dd63082b62f98b6972f2d2b1e0d9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/tick_16-49c6dd63082b62f98b6972f2d2b1e0d9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tick_32-f967e312e20fbf4e91d790683c6b6f85.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/time_icon19x30-76154c1dd0b01470464f3fd4ad8f8d7f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/auth/twitter_64-9e5a1be7cbcb38850537e4f6437c9f0c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/twitter_black_icon-695d75ae6ff442b93cc17cbabd633521.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse/twitter_icon28x24-625c30331722973ca62e292c6cb244bd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter_share-00312a0cf97e95394a6b3724d83cbbf5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_diagonals-small_0_aaaaaa_40x40-7bb53b7e38f23b71b47befb3997f41c3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_diagonals-thick_15_444444_40x40-3f6203079f54877c6ec607d6522673ca.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_diagonals-thick_95_ffdc2e_40x40-04fa2ce431482286eadad8829a91f13d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_55_fbf5d0_1x400-d0b8b2220368de6d7cb262c4e21cb036.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_highlight-hard_30_285c00_1x100-50d398d710f6b89073398a0fe8dda7ec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_highlight-soft_33_3a8104_1x100-a282c9c1f9fbab0fb966813594142f18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_highlight-soft_50_4eb305_1x100-814fc1211c67ba1e07116dd9b21eea4a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_highlight-soft_60_4ca20b_1x100-7d31b7912df48a8aabe55f2afda09660.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_inset-soft_10_285c00_1x100-f4f3d7a1dec3b62989d3e44d4593967e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_4eb305_256x240-c8d78f1fd50819240b723061c239a6f1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_72b42d_256x240-d3ee47b8833bfb50fd422fb653b1bdb6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_cd0a0a_256x240-958cbe524d60867adcc1936c27631026.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_ffffff_256x240-a0ca19684c0ad5546be8aa4949ec5d40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/user-9c36dd9443d4180144ab28045f283a58.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/waiting_confirmation.en-1148ec1a51df9ebc569027e3e43ee0f8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/waiting_confirmation.es-3988cd2b326fce9dfd3da11f31efc4f3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/waiting_confirmation.pt-d7374c72198003f9611bbd243ea3c024.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/templates/default/01proxy.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/chef_gem/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/CONTRIBUTING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/CONTRIBUTING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/chef_gem/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/imagemagick/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/locale/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/templates/default/acng.conf.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7a07e7c553c1aa61548a24c10785fdae.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/files/default/apt-proxy-v2.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/reports/backer_reports_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/reports/base_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/recipes/cacher-client.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/recipes/cacher-ng.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/catarse_moip-09124d08dfbe0727a8c690b3168a981a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/chef_gem/libraries/chef_gem.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/project/custom_validators.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/attributes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/recipes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/attributes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/recipes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/chef_gem/recipes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/imagemagick/recipes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/locale/attributes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/locale/recipes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/attributes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/libraries/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/recipes/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/imagemagick/recipes/devel.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/channels/admin/followers_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icomoon-24e1ba9a3eb64a5644f9ed88ae0e830f.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icomoon-9a77f408cadcb1791c975aad3521f261.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/templates/debian/init.d.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/manifest-0c45a656debb86bfb4fd9f7772924c50.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/chef_gem/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/imagemagick/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/locale/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/metadata.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/build-essential/metadata.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/chef_gem/metadata.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/imagemagick/metadata.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/locale/metadata.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/metadata.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/providers/preference.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/resources/preference.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/channels/admin/projects_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/libraries/provider_runit_service.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/providers/repository.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/apt/resources/repository.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/libraries/resource_runit_service.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/imagemagick/recipes/rmagick.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/templates/gentoo/runit-start.sh.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/files/default/runit.seed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/files/ubuntu-6.10/runsvdir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/files/ubuntu-7.04/runsvdir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/files/ubuntu-7.10/runsvdir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbooks/runit/files/ubuntu-8.04/runsvdir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/project/state_machine_handler.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/shared/state_machine_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/channels/admin/reports/subscriber_reports_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/project/video_handler.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/decorators/project_decorator.rb" afterPath="$PROJECT_DIR$/app/decorators/project_decorator.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catarse-master.iws" />
@@ -40,7 +318,7 @@
     <file path="$PROJECT_DIR$/../betastore/config/routes.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385078059319" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/test/models/order_test.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
-    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385417380238" ignored="false" />
+    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385420255392" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/.idea/workspace.xml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385089360362" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/app/models/credit_card.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
     <file path="/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
@@ -83,15 +361,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.pt.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/admin.pt.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="80" selection-start="0" selection-end="3193" vertical-scroll-proportion="-1.627451">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.en.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/admin.en.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,10 +424,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="20" column="15" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project_decorator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/decorators/project_decorator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="0" selection-start="2466" selection-end="2466" vertical-scroll-proportion="2.7445652">
               <folding />
             </state>
           </provider>
@@ -191,7 +469,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/sign_up.pt.yml" />
         <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/submit_project.pt.yml" />
         <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/models/user.pt.yml" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
@@ -207,6 +484,7 @@
         <option value="$PROJECT_DIR$/config/locales/channels.pt.yml" />
         <option value="$PROJECT_DIR$/config/locales/devise.en.yml" />
         <option value="$PROJECT_DIR$/config/locales/devise.pt.yml" />
+        <option value="$PROJECT_DIR$/app/decorators/project_decorator.rb" />
       </list>
     </option>
   </component>
@@ -584,28 +862,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -953,7 +1209,11 @@
       <created>1385405692064</created>
       <updated>1385405692064</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Language and routes update">
+      <created>1385420260279</created>
+      <updated>1385420260279</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -981,12 +1241,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3319012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968867" sideWeight="0.67132115" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968867" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1042,7 +1302,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gemfile and logo update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Language and routes update" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1060,18 +1320,12 @@
     <MESSAGE value="Language changes" />
     <MESSAGE value="Update Rails &amp; Ruby" />
     <MESSAGE value="Gemfile and logo update" />
+    <MESSAGE value="Language and routes update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/seeds/my-seeds-local.example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="72" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
@@ -1172,7 +1426,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="20" column="15" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/decorators/project_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="2466" selection-end="2466" vertical-scroll-proportion="2.7445652">
           <folding />
         </state>
       </provider>
