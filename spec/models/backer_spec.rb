@@ -27,6 +27,21 @@ describe Backer do
     it{ should allow_value(20).for(:value) }
   end
 
+  describe ".confirmed_today" do
+    before do
+      3.times { create(:backer, state: 'confirmed', confirmed_at: 2.days.ago) }
+      4.times { create(:backer, state: 'confirmed', confirmed_at: 6.days.ago) }
+
+      #TODO: need to investigate this timestamp issue when
+      # use DateTime.now or Time.now
+      7.times { create(:backer, state: 'confirmed', confirmed_at: 3.hours.from_now) }
+    end
+
+    subject { Backer.confirmed_today }
+
+    it { should have(7).items }
+  end
+
   describe ".between_values" do
     let(:start_at) { 10 }
     let(:ends_at) { 20 }
@@ -71,14 +86,14 @@ describe Backer do
     let(:backer) { build(:backer, user: user) }
     let(:user) {
       build(:user, {
-        address_street: 'test stret',
-        address_number: '123',
-        address_neighbourhood: 'test area',
-        address_zip_code: 'test zipcode',
-        address_city: 'test city',
-        address_state: 'test state',
-        phone_number: 'test phone',
-        cpf: 'test doc number'
+          address_street: 'test stret',
+          address_number: '123',
+          address_neighbourhood: 'test area',
+          address_zip_code: 'test zipcode',
+          address_city: 'test city',
+          address_state: 'test state',
+          phone_number: 'test phone',
+          cpf: 'test doc number'
       })
     }
     subject{ backer }
@@ -100,14 +115,14 @@ describe Backer do
     let(:user) { backer.user }
     let(:backer_attributes) {
       {
-        address_street: backer.address_street,
-        address_number: backer.address_number,
-        address_neighbourhood: backer.address_neighbourhood,
-        address_zip_code: backer.address_zip_code,
-        address_city: backer.address_city,
-        address_state: backer.address_state,
-        phone_number: backer.address_phone_number,
-        cpf: backer.payer_document
+          address_street: backer.address_street,
+          address_number: backer.address_number,
+          address_neighbourhood: backer.address_neighbourhood,
+          address_zip_code: backer.address_zip_code,
+          address_city: backer.address_city,
+          address_state: backer.address_state,
+          phone_number: backer.address_phone_number,
+          cpf: backer.payer_document
       }
     }
 

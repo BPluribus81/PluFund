@@ -15,8 +15,8 @@ class Project < ActiveRecord::Base
   mount_uploader :uploaded_image, ProjectUploader
 
   delegate :display_status, :display_progress, :display_image, :display_expires_at, :remaining_text, :time_to_go,
-    :display_pledged, :display_goal, :remaining_days, :progress_bar, :successful_flag,
-    to: :decorator
+           :display_pledged, :display_goal, :remaining_days, :progress_bar, :successful_flag,
+           to: :decorator
 
   has_and_belongs_to_many :channels
   has_one :project_total
@@ -29,10 +29,10 @@ class Project < ActiveRecord::Base
       [:name, 'A'],
       [:headline, 'B'],
       [:about, 'C']
-    ],
-    associated_against:  {user: [:name, :address_city ]},
-    using: {tsearch: {dictionary: "portuguese"}},
-    ignoring: :accents
+  ],
+                  associated_against:  {user: [:name, :address_city ]},
+                  using: {tsearch: {dictionary: "portuguese"}},
+                  ignoring: :accents
 
   # Used to simplify a has_scope
   scope :successful, ->{ with_state('successful') }
@@ -82,6 +82,10 @@ class Project < ActiveRecord::Base
 
   scope :from_channels, ->(channels){
     where("EXISTS (SELECT true FROM channels_projects cp WHERE cp.project_id = projects.id AND cp.channel_id = ?)", channels)
+  }
+
+  scope :with_backers_confirmed_today, -> {
+    joins(:backers).merge(Backer.confirmed_today).uniq
   }
 
   attr_accessor :accepted_terms

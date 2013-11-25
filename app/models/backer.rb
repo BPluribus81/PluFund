@@ -23,6 +23,7 @@ class Backer < ActiveRecord::Base
   scope :anonymous, -> { where(anonymous: true) }
   scope :credits, -> { where(credits: true) }
   scope :not_anonymous, -> { where(anonymous: false) }
+  scope :confirmed_today, -> { with_state('confirmed').where("backers.confirmed_at::date = current_timestamp::date ") }
 
   scope :can_cancel, -> { where("backers.can_cancel") }
 
@@ -74,15 +75,15 @@ class Backer < ActiveRecord::Base
 
   def update_user_billing_info
     user.update_attributes({
-      address_street: address_street,
-      address_number: address_number,
-      address_neighbourhood: address_neighbourhood,
-      address_zip_code: address_zip_code,
-      address_city: address_city,
-      address_state: address_state,
-      phone_number: address_phone_number,
-      cpf: payer_document
-    })
+                               address_street: address_street,
+                               address_number: address_number,
+                               address_neighbourhood: address_neighbourhood,
+                               address_zip_code: address_zip_code,
+                               address_city: address_city,
+                               address_state: address_state,
+                               phone_number: address_phone_number,
+                               cpf: payer_document
+                           })
   end
 
   # Used in payment engines

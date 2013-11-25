@@ -14,11 +14,11 @@ class BackerObserver < ActiveRecord::Observer
   def after_save(backer)
     if backer.project.reached_goal?
       Notification.notify_once(
-        :project_success,
-        backer.project.user,
-        {project_id: backer.project.id},
-        project: backer.project
-      ) 
+          :project_success,
+          backer.project.user,
+          {project_id: backer.project.id},
+          project: backer.project
+      )
     end
   end
 
@@ -30,10 +30,10 @@ class BackerObserver < ActiveRecord::Observer
     user = User.where(email: Configuration[:email_payments]).first
     if user.present?
       Notification.notify_once(
-        :backer_canceled_after_confirmed,
-        user,
-        {backer_id: backer.id},
-        backer: backer
+          :backer_canceled_after_confirmed,
+          user,
+          {backer_id: backer.id},
+          backer: backer
       )
     end
   end
@@ -42,40 +42,32 @@ class BackerObserver < ActiveRecord::Observer
   def notify_confirmation(backer)
     backer.confirmed_at = Time.now
     Notification.notify_once(
-      :confirm_backer,
-      backer.user,
-      {backer_id: backer.id},
-      backer: backer,
-      project: backer.project
-    )
-
-    Notification.notify_once(
-      :project_owner_backer_confirmed,
-      backer.project.user,
-      {backer_id: backer.id},
-      backer: backer,
-      project: backer.project
+        :confirm_backer,
+        backer.user,
+        {backer_id: backer.id},
+        backer: backer,
+        project: backer.project
     )
 
     if (Time.now > backer.project.expires_at  + 7.days) && (user = User.where(email: ::Configuration[:email_payments]).first)
       Notification.notify_once(
-        :backer_confirmed_after_project_was_closed,
-        user,
-        {backer_id: backer.id},
-        backer: backer,
-        project: backer.project
+          :backer_confirmed_after_project_was_closed,
+          user,
+          {backer_id: backer.id},
+          backer: backer,
+          project: backer.project
       )
     end
   end
 
   def notify_payment_slip(backer)
     Notification.notify_once(
-      :payment_slip,
-      backer.user,
-      {backer_id: backer.id},
-      backer: backer,
-      project: backer.project
-    ) 
+        :payment_slip,
+        backer.user,
+        {backer_id: backer.id},
+        backer: backer,
+        project: backer.project
+    )
   end
 
 end
