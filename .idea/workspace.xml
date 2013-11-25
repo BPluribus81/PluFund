@@ -2,121 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/custom/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/shared/_alert.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/_analysis_warning.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_footer_channel.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/shared/_header.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_header_channel.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/layouts/_login_feedback_support.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/layouts/_mailer_styles.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_newsletter.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_project.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/_twitter_timeline.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/layouts/_uservoice.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/adm_project_deadline.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/adm_project_deadline.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/adm_project_deadline.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_canceled_after_confirmed.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_confirmed_after_project_was_closed.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_confirmed_after_project_was_closed.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_confirmed_after_project_was_closed.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_successful.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_successful.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_successful.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_successful.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_unsuccessful.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_unsuccessful.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_unsuccessful.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_unsuccessful.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/pages/bad_browser.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/layouts/catarse_bootstrap.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/confirm_backer.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/confirm_backer.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/confirm_backer.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/confirm_backer.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/credits_warning.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/credits_warning.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/credits_warning.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/credits_warning.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/channels/profiles/edit.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/passwords/edit.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/backers/edit.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/layouts/email.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/channels/profiles/how_it_works.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project_channel.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project_channel.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/backers/index.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/financials/index.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/projects/index.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/statistics/index.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/users/index.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/channels/admin/followers/index.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/channels/admin/projects/index.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/channels/projects/new.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/passwords/new.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/registrations/new.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/sessions/new.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project_channel.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project_channel.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_features.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_features.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/errors/not_found.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/payment_slip.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/payment_slip.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/payment_slip.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/payment_slip.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/pending_backer_project_unsuccessful.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/pending_backer_project_unsuccessful.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/pending_backer_project_unsuccessful.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/pending_backer_project_unsuccessful.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/processing_payment.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/processing_payment.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/processing_payment.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/processing_payment.pt.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_in_wainting_funds.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_in_wainting_funds.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_owner_backer_confirmed.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_owner_backer_confirmed.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received_channel.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received_channel.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected_channel.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected_channel.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_success.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_success.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_unsuccessful.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_unsuccessful.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible_channel.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible_channel.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/mailer/reset_password_instructions.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/mailer/reset_password_instructions.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/channels/profiles/show.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/devise/mailer/unlock_instructions.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/updates.en.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/updates.en.text.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/updates.pt.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/updates.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/botao_bemvindo_PT_big.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/botao_bemvindo_PT_big.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/logo_icon_catarse.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/logo_icon_catarse.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f80f52d2315a0d16f30b7daba3a93722.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/chartkick-d5d851fb6ec87284a634b6d0535bec1f.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/admin.en.yml" afterPath="$PROJECT_DIR$/config/locales/admin.en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/admin.pt.yml" afterPath="$PROJECT_DIR$/config/locales/admin.pt.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/channels.en.yml" afterPath="$PROJECT_DIR$/config/locales/channels.en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/channels.pt.yml" afterPath="$PROJECT_DIR$/config/locales/channels.pt.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.pt.yml" afterPath="$PROJECT_DIR$/config/locales/devise.pt.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt.yml" afterPath="$PROJECT_DIR$/config/locales/pt.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catarse-master.iws" />
@@ -143,7 +40,7 @@
     <file path="$PROJECT_DIR$/../betastore/config/routes.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385078059319" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/test/models/order_test.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
-    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385405010233" ignored="false" />
+    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385417380238" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/.idea/workspace.xml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385089360362" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/app/models/credit_card.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
     <file path="/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
@@ -162,10 +59,11 @@
     <file path="$PROJECT_DIR$/../TanveerH/config.ru" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385218101873" ignored="false" />
     <file path="$PROJECT_DIR$/../TanveerH/config/routes.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385218158462" ignored="false" />
     <file path="$PROJECT_DIR$/../TanveerH/config/database.yml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385218158462" ignored="false" />
-    <file path="/seeds.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385218843117" ignored="false" />
+    <file path="/seeds.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385418818369" ignored="false" />
     <file path="$PROJECT_DIR$/../catarse-master/.idea/workspace.xml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385346134346" ignored="false" />
     <file path="$PROJECT_DIR$/../catarse-master/config/locales/pt.yml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385222093707" ignored="false" />
     <file path="/locale.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385348241068" ignored="false" />
+    <file path="/pt.yml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385420066803" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,8 +83,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_headers.sass" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_headers.sass">
+      <file leaf-file-name="admin.pt.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/admin.pt.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="80" selection-start="0" selection-end="3193" vertical-scroll-proportion="-1.627451">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.en.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/admin.en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="108" column="0" selection-start="3193" selection-end="3193" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channels.en.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/channels.en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="55" selection-start="0" selection-end="1635" vertical-scroll-proportion="-1.9411764">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channels.pt.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/channels.pt.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devise.en.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/devise.en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="62" selection-start="922" selection-end="922" vertical-scroll-proportion="-4.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rails.en.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/rails.en.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -194,29 +137,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catarse-assets.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/catarse-assets.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="botao_bemvindo_PT_big.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/botao_bemvindo_PT_big.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="botao_bemvindo_EN_big.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/botao_bemvindo_EN_big.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="simple_form.en.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/simple_form.en.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -224,38 +146,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logo_icon_catarse.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/logo_icon_catarse.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="will_paginate.en.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/will_paginate.en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner-3years.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/banner-3years.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feedback-close.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-close.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feedback-open.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-open.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feedback-key.png" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-key.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="devise.pt.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/devise.pt.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="72" selection-start="4476" selection-end="4476" vertical-scroll-proportion="-6.6">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -277,22 +191,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/locales/admin.en.yml" />
-        <option value="$PROJECT_DIR$/config/locales/admin.pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/channels.pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/devise.pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/rails.pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/will_paginate.pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/forgot_password.pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/login.pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/reset_password.pt.yml" />
         <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/sign_up.pt.yml" />
         <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/submit_project.pt.yml" />
         <option value="$PROJECT_DIR$/config/locales/catarse_bootstrap/models/user.pt.yml" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/spec/models/reward_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.slim" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/config/locales/pt.yml" />
+        <option value="$PROJECT_DIR$/config/locales/admin.pt.yml" />
+        <option value="$PROJECT_DIR$/config/locales/admin.en.yml" />
+        <option value="$PROJECT_DIR$/config/locales/channels.en.yml" />
+        <option value="$PROJECT_DIR$/config/locales/channels.pt.yml" />
+        <option value="$PROJECT_DIR$/config/locales/devise.en.yml" />
+        <option value="$PROJECT_DIR$/config/locales/devise.pt.yml" />
       </list>
     </option>
   </component>
@@ -445,7 +359,193 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="channels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="channels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="channels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,106 +606,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse_bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse_bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -615,7 +615,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.toDoOptions" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../selfstarter-master" />
     <property name="options.searchVisible" value="true" />
@@ -949,10 +949,14 @@
       <created>1385405012813</created>
       <updated>1385405012813</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Gemfile and logo update">
+      <created>1385405692064</created>
+      <updated>1385405692064</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -978,11 +982,11 @@
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3319012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37484434" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968867" sideWeight="0.67132115" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1061,98 +1065,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/images/browser_logos/firefox.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/content/_footer.sass">
+    <entry file="file://$PROJECT_DIR$/db/seeds/my-seeds-local.example.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/content/_sidebar.sass">
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="72" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="152" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-6.428571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="1007" selection-end="1023" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="938" column="0" selection-start="53529" selection-end="53529" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/pt.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="16" selection-end="16" vertical-scroll-proportion="262.86273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/admin.pt.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="80" selection-start="0" selection-end="3193" vertical-scroll-proportion="-1.627451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/admin.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="0" selection-start="3193" selection-end="3193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/channels.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="55" selection-start="0" selection-end="1635" vertical-scroll-proportion="-1.9411764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/channels.pt.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/devise.pt.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="72" selection-start="4476" selection-end="4476" vertical-scroll-proportion="-6.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/devise.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="62" selection-start="922" selection-end="922" vertical-scroll-proportion="-4.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/rails.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/content/_sessions.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="10" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/content/_explore.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/content/_body.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="3" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_headers.sass">
+    <entry file="file://$PROJECT_DIR$/config/locales/simple_form.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/locales/will_paginate.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/logo_icon_catarse.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/catarse-assets.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/botao_bemvindo_PT_big.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/botao_bemvindo_EN_big.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/banner-3years.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-close.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-open.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-key.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

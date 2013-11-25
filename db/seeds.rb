@@ -41,10 +41,10 @@ puts 'Seeding the database...'
  end
 
 {
-  company_name: 'Catarse',
-  company_logo: 'http://catarse.me/assets/catarse_bootstrap/logo_icon_catarse.png',
-  host: 'catarse.me',
-  base_url: "http://catarse.me",
+  company_name: 'Pluribus Fund',
+  company_logo: 'https://www.dropbox.com/s/m10p9cen53ie7fb/logothumb.png',
+  host: 'pluribusfund.com',
+  base_url: "http://pluribusfund.com",
 
   email_contact: 'contact@pluribusfund.com',
   email_payments: 'finance@pluribusfund.com',
@@ -56,9 +56,9 @@ puts 'Seeding the database...'
   twitter_url: 'http://twitter.com/pluribusfund',
   twitter_username: "pluribusfund",
   mailchimp_url: "http://catarse.us5.list-manage.com/subscribe/post?u=ebfcd0d16dbb0001a0bea3639&amp;id=149c39709e",
-  catarse_fee: '0.13',
-  support_forum: 'http://suporte.catarse.me/',
-  base_domain: 'catarse.me',
+  catarse_fee: '0.05',
+  support_forum: 'http://support.pluribusfund.com/',
+  base_domain: 'pluribusfund.com',
   uservoice_secret_gadget: 'change_this',
   uservoice_key: 'uservoice_key',
   faq_url: 'http://suporte.catarse.me/',
@@ -67,9 +67,9 @@ puts 'Seeding the database...'
   privacy_url: 'http://suporte.catarse.me/knowledgebase/articles/161103-pol%C3%ADtica-de-privacidade',
   about_channel_url: 'http://blog.catarse.me/conheca-os-canais-do-catarse/',
   instagram_url: 'http://instagram.com/catarse_',
-  blog_url: "http://blog.catarse.me",
+  blog_url: "http://blog.pluribusfund.com",
   github_url: 'http://github.com/BPluribus81',
-  contato_url: 'http://suporte.catarse.me/'
+  contato_url: 'http://support.pluribusfund.com/'
 }.each do |name, value|
    conf = Configuration.find_or_initialize_by(name: name)
    conf.update_attributes({
