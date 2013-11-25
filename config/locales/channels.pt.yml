@@ -1,46 +1,45 @@
-pt:
+en:
   channels_subscribers:
-    created: 'Agora você segue o %{channel}'
-    deleted: 'Você deixou de seguir o %{channel}'
+    created: 'You are now following %{channel}'
+    deleted: 'You are no longer following %{channel}'
   channels:
-    send_your_project: "Envie seu projeto"
-    send_a_email: "Envie um email"
-    follow: "Siga o canal"
-    following: "Seguindo"
-    unfollow: "Deixar de seguir"
-    subscribed: "%{count} seguindo o canal"
-    curator: 'Curador'
+    send_your_project: "Submit your project"
+    send_a_email: "Send a email"
+    follow: "Follow channel"
+    following: "Following"
+    unfollow: "Unfollow"
+    subscribed: "%{count} subscribed to this channel"
+    curator: 'Curator'
     admin:
-      menu: "Moderação de Canais"
-      followers_menu: "Seguidores"
-      statistics_menu: "Estatísticas"
-      profile_menu: "Editar canal"
+      menu: "Channel moderation"
+      statistics_menu: "Statistics"
+      profile_menu: "Channel profile"
       statistics:
-        title: 'Estatísticas do canal'
-        total_subscribers: 'Total de assinantes'
+        title: 'Channel statistics'
+        total_subscribers: 'Total subscribers'
     projects:
-      send: "Envie o seu projeto"
-      see_how_it_works: "Veja como funciona e envie seu projeto."
-      how_it_works: "Como funciona"
-      progress_html: "<span>%{percent}%</span> financiado"
+      send: "Submit your project"
+      see_how_it_works: "See how it works and submit your project."
+      how_it_works: "How it works"
+      progress_html: "<span>%{percent}%</span> funded"
       time_remaining_html:
-        one: "<span>%{count} %{unit}</span> restante"
-        other: "<span>%{count} %{unit}</span> restantes"
-      pledged_html: "<span>%{value}</span> levantados"
+        one: "<span>%{count} %{unit}</span> remaining"
+        other: "<span>%{count} %{unit}</span> remaining"
+      pledged_html: "<span>%{value}</span> pledged"
     how_it_works:
-      title: "Como funciona o %{channel}?"
+      title: "How %{channel} works?"
     footer:
-      terms: "Termos de uso"
-      privacy_policy: "Política de Privacidade"
-      how_it_works: "Como funciona o %{name}"
-      how_channels_work: "Entenda os Canais no Catarse"
-      contact: "Contato"
+      terms: "Terms of use"
+      privacy_policy: "Privacy Policy"
+      how_it_works: "How %{name} works"
+      how_channels_work: "Understand Catarse channels"
+      contact: "Contact"
     accessibility:
       how_it_works: "Clique para saber como o Canal funciona e enviar o seu projeto"
-      send_your_project: "Clique para enviar o seu projeto"
-      link_to_twitter: "Link para o twitter do canal"
-      link_to_facebook: "Link para o facebook do canal"
-      link_to_website: "Link para o site externo do canal"
+      send_your_project: "Click to submit your project"
+      link_to_twitter: "Channel twitter link"
+      link_to_facebook: "Channel facebook link"
+      link_to_website: "Channel website"
     presentation:
-      link-to-follow: 'Seguir canal'
-      followers: 'seguidores'
+      link-to-follow: 'Follow channel'
+      followers: 'followers'

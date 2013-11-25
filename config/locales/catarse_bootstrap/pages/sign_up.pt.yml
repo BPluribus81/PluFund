@@ -1,20 +1,21 @@
-pt:
+en:
   pages:
     sign_up:
-      have_account_html: "Já tem cadastro? <strong>%{link}</strong>"
+      have_account_html: "Have an account? <strong>%{link}</strong>"
       titles:
-        site: 'Cadastre-se'
-        header: 'Cadastre-se'
+        site: 'Sign up'
+        header: 'Sign up'
       links:
-        login: "Faça seu login"
+        login: "Log in"
       form:
         labels:
-          show_password: 'Exibir senha'
-          name: 'Nome completo'
-          password: 'Senha'
-          newsletter: 'Quero receber novidades do Catarse via email'
+          show_password: 'Show password'
+          name: 'Name'
+          password: 'Password'
+          newsletter: 'I want to subscribe to Catarse newsletter'
         hint:
-          password_length: 'Mínimo 6 caracteres'
+          password_length: 'Must be at least 6 characters.'
         inputs:
-          submit: 'Efetuar cadastro'
-          facebook: 'Entrar com Facebook'
+          submit: 'Sign me up'
+          facebook: 'Sign up with Facebook'
+

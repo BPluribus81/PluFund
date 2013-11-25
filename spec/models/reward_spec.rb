@@ -5,7 +5,7 @@ require 'spec_helper'
 describe Reward do
   let(:reward){ create(:reward, description: 'envie um email para foo@bar.com') }
 
-  describe "Versioning" do
+  describe "Versioning", versioning: true do
     subject { reward.versions }
 
     context 'when reward is recent' do

@@ -1,43 +1,43 @@
-pt:
+en:
   submit_project:
-    title: "Envie seu projeto para o %{channel}!"
-    subtitle: "Após preencher o formulário abaixo, você receberá uma página de projeto em rascunho. Lá você irá adicionar as recompensas e poderá compartilhar com seus amigos para ter um projeto ainda mais afiado. As informações preenchidas abaixo não são definitivas, mas lembre-se de que quanto mais consistente estiver o seu projeto nesse envio, mais rápido ele irá para o ar."
-    important: "<strong>Importante:</strong> O %{channel} seleciona projetos segundo seus próprios critérios de seleção, o que implica que seu projeto poderá ser recusado pela equipe de curadores."
+    title: "Submit your project to %{channel} channel"
+    subtitle: "After filling out the form below, you will receive a draft project page. There you will add rewards and can share with your friends to have an even more sharp message. The information filled below are not definitive, but remember that the more consistent you are in your project submission, the faster it will air."
+    important: "<strong>Important:</strong> The %{channel} selects the projects based on their own criteria, this implies that the project can be refused by the curators team."
 
     permalink: "catarse.me/"
-    permalink_hint: "URL é o endereço do seu projeto, deixe-a simples. Tente não usar underline, hífen e etc."
+    permalink_hint: "Project URL is the web address for your project, keep it simple. Try to not use underline, dash and special characters"
 
-    name: "Nome do projeto"
-    name_hint: "Quanto mais direto melhor. Deixe para descrever o seu projeto no Sobre e no Vídeo. Não ultrapasse 50 caracteres."
+    name: "Project's Name"
+    name_hint: "Be as objective as you can. Leave explanations for the About section."
 
-    about: "História do seu projeto e como o dinheiro será utilizado"
-    about_hint: "Fale sobre sua inspiração para criar o projeto, sua história e o que será realizado. Fuja daquelas formalidades de editais. Presenteie seus leitores com algo que mexa com eles e seja muito transparente em relação a expectativa sobre o projeto. Não deixe o texto muito grande! Coloque links para que o apoiador possa explorar mais o seu trabalho."
+    about: "About your project. How will you spend this money?"
+    about_hint: "Tell us about what inspired you to come up with this project . Be objective end charming, present your readers with something that moves them while being very transparent over the expectations on your project!"
 
-    headline: "Frase de efeito"
-    headline_hint: "Crie uma breve descrição do projeto, com no máximo 140 caracteres. Esta frase será o primeiro contato das pessoas com o seu projeto, antes mesmo de ver o vídeo. Seja criativo, transparente e direto."
+    headline: "Punch Line"
+    headline_hint: "Summarize your project in 140 characters. This sentence will be the first contact people will have with your project, before even seeing the video. Be creative, clear and direct."
 
-    category_id: "Qual é a categoria do seu projeto?"
-    category_id_hint: "Antes de enviar, explore e se inspire em outros projetos da mesma <a href='%{href}' target='_blank'>categoria</a>."
+    category_id: "Category"
+    category_id_hint: "Before you format your project <a href='%{href}' target='_blank'>explore other</a> (successful) projects to inspire yourself!"
 
-    goal: "Quanto você pretende arrecadar? (apenas números)"
-    goal_hint: "Grande parte dos apoios virão de pessoas próximas a você portanto, pense na sua capacidade de mobilizar pelo menos 50% do valor dentro da sua rede de contatos. Lembre-se da taxa de 13% cobrada pelo Catarse caso seu projeto seja bem-sucedido. Basta dividir o seu orçamento final por 0,87 para chegar no valor total."
+    goal: "Values in reais (R$)"
+    goal_hint: "The biggest part of the supportes will be close to you. Based on that try to think on your capacity to mobilize at least 50% of your network. Remember the Catarse 13% tax.Just divide your final budget by 0,87 to reach the final number."
 
-    online_days: "Qual o prazo em dias para atingir o mínimo?"
-    online_days_hint: "O prazo máximo para deixar o projeto no ar é de 60 dias, sendo que em média ficam no ar por 40 dias."
+    online_days: "How Many Campaign Days?"
+    online_days_hint: "Finally, choose how long you want your campaign to last. Again, this is a strategic choice: if you put a lot of time, people will lose interest along the way; if put too little, you may not reach the minimum in time."
 
     video_url: "Vídeo"
-    video_url_hint: "O vídeo é a principal peça do projeto, mas você pode envia-lo depois. Faça um belo vídeo e cole o link aqui."
+    video_url_hint: "Paste here the URL of your Youtube or Vimeo video."
 
-    more_links: "Queremos saber mais"
-    more_links_hint: "Queremos saber mais sobre você e seu projeto. Cole aqui os links (site do projeto, facebook, twitter e blogs) para entendermos mais sobre o seu trabalho e o que está planejando para a campanha."
+    more_links: "List project related links"
+    more_links_hint: "Which channels will be used to spread the word about your project? List here your facebook/twitter/blog/site/ and what ever more links you have to help you."
 
-    first_backers: "Lista com os primeiros apoiadores"
-    first_backers_hint: "Para sua campanha ter sucesso, é fundamental trazer a sua rede de contato mais próxima. Por isso, liste aqui quem você acredita que serão seus primeiros 20 apoiadores. Essas pessoas serão fundamentais para ter sucesso no seu projeto."
+    first_backers: "List the first backers"
+    first_backers_hint: "To reach your financial goal it’s indispensable to engage the people who are close to you and the project. So if you can list here who will be your first 20 backers that would be a great sign."
 
-    how_know: "Como você conheceu o canal?"
-    how_know_hint: "Nos conte como você conheceu o canal e o que você espera da gente."
+    how_know: "Hou you discovered the channel?"
+    how_know_hint: "Tell us how you discovered the channel and what you expect from us."
 
-    accept_terms: "Eu li e estou de acordo com os %{link}."
-    terms: "termos de uso"
+    accept_terms: "I read and agree with the %{link}."
+    terms: "use terms"
 
-    submit: "Salvar rascunho"
+    submit: "Save draft"

@@ -3,9 +3,9 @@
   <component name="DataSourceManagerImpl" format="xml" hash="3028807681">
     <data-source source="LOCAL" name="Rails catarse-master: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="f1a7f238-c993-4935-adb0-88a07c45b52b">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/Pluribus_Fund_Dev</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/pluribusfund</jdbc-url>
       <user-name>postgres</user-name>
-      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
+      <user-password>dfd9dfcfdfc9dfd8dfcfdfde</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
@@ -17,9 +17,9 @@
     </data-source>
     <data-source source="LOCAL" name="Rails catarse-master: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="078cae4a-928e-482d-a8da-03359ec07c91">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/Pluribus_Fund_Dev</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/pluribusfund</jdbc-url>
       <user-name>postgres</user-name>
-      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
+      <user-password>dfd9dfcfdfc9dfd8dfcfdfde</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>

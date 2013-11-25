@@ -1,16 +1,16 @@
-pt:
+en:
   pages:
     login:
-      no_account_html: "Não tem conta? <strong>%{link}</strong>"
+      no_account_html: "Need an account? <strong>%{link}</strong>"
       titles:
-        site: 'Login'
-        header: 'Login'
+        site: 'Log in'
+        header: 'Log in'
       links:
-        register: "Cadastre-se"
-        forgot_password: "Esqueci minha senha"
+        register: "Sign up"
+        forgot_password: "I forgot my password"
       form:
         labels:
-          remember_me: 'Continuar conectado'
+          remember_me: 'Remember me'
         inputs:
-          submit: 'Fazer login'
-          facebook: 'Entrar com Facebook'
+          submit: 'Log me in'
+          facebook: 'Log in with Facebook'
