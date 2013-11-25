@@ -2,66 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130814174329_alter_timestamp_to_include_timezone.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130815161926_create_recommendations_view.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130818015857_add_projects_home_view.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130822215532_fix_credits_into_user_totals_view.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130827210414_revert_expires_at.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130828160026_use_expires_at_in_view.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130829180232_use_timezone_instead_of_hardcoded_3.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130905153553_add_sessions_table.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130911180657_create_subscriber_reports.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130918191809_fix_project_state_in_recommendations_view.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130926185207_add_video_url_to_channels.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131008190648_add_how_it_works_to_channels.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131010193936_add_channel_id_to_user.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131010194006_update_users_channel_id.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131010194345_drop_channels_trustees.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131010194500_drop_projects_curated_pages.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131010194521_drop_reward_ranges.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131014201229_fix_duplicated_entries_in_recommendations.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131016193346_remove_sessions_table.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131016214955_add_how_it_works_html_to_channels.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131016231130_change_varchar_to_text_in_channels.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131018170211_add_referal_link_into_projects.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131020215932_add_terms_url_to_channels.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131021190108_add_progress_to_project_totals.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131022154220_add_project_financials_view.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131023031539_add_function_can_cancel_to_backers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131023032325_add_can_refund_function_to_backers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131107143439_add_origin_email_to_notifications.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131107143512_add_origin_name_to_notifications.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131107143537_add_template_name_to_notifications.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131107143832_add_locale_to_notifications.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131107145351_set_notification_defaults_and_not_null.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131107161918_remove_notification_types.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131112113608_add_referal_link_on_backers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131113145601_add_channel_id_to_notifications.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131114154112_add_sent_to_analysis_at_to_projects.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/seeds/add-users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/backers_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/base_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/config.rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/backer/custom_validators.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/exception_handler.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/financials_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/google_analytics.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/high_voltage.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/jasmine.rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/menu_handler.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/seeds/my-seeds-local.example.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/omniauth_controller_methods.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/project_financial.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/projects_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/projects_for_home.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/social_helpers_handler.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/backer/state_machine_handler.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/statistics_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/subscriber_report.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catarse-master.iws" />
@@ -88,7 +28,7 @@
     <file path="$PROJECT_DIR$/../betastore/config/routes.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385078059319" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/test/models/order_test.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
-    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385347600932" ignored="false" />
+    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385348249610" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/.idea/workspace.xml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385089360362" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/app/models/credit_card.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
     <file path="/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
@@ -110,6 +50,7 @@
     <file path="/seeds.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385218843117" ignored="false" />
     <file path="$PROJECT_DIR$/../catarse-master/.idea/workspace.xml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385346134346" ignored="false" />
     <file path="$PROJECT_DIR$/../catarse-master/config/locales/pt.yml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385222093707" ignored="false" />
+    <file path="/locale.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385348241068" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +74,12 @@
         <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="53131" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1385336998033" expanded="true" signature="0:53130" placeholder="en:" />
+                <marker date="1385336998033" expanded="true" signature="52015:52594" placeholder="users_mailer:" />
+                <marker date="1385336998033" expanded="true" signature="52597:53130" placeholder="notifications:" />
+                <marker date="1385336998033" expanded="true" signature="52883:53130" placeholder="updates:" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,15 +88,6 @@
         <entry file="file://$PROJECT_DIR$/config/locales/devise.en.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="5615" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="will_paginate.pt.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/will_paginate.pt.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -208,10 +145,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-seeds-local.example.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="my-seeds-local.example.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds/my-seeds-local.example.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.60588235">
+            <state line="61" column="39" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="locale.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/locale.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="34" selection-start="456" selection-end="456" vertical-scroll-proportion="0.105882354">
               <folding />
             </state>
           </provider>
@@ -235,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/log/development.log" />
         <option value="$PROJECT_DIR$/.secret" />
@@ -251,6 +196,7 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/locales/notifications.pt.yml" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/config/initializers/locale.rb" />
       </list>
     </option>
   </component>
@@ -1171,7 +1117,15 @@
       <created>1385347606691</created>
       <updated>1385347606692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Language changes">
+      <created>1385347925023</created>
+      <updated>1385347925023</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Language changes">
+      <created>1385348252911</created>
+      <updated>1385348252911</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1357,7 +1311,12 @@
     <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="53131" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1385336998033" expanded="true" signature="0:53130" placeholder="en:" />
+            <marker date="1385336998033" expanded="true" signature="52015:52594" placeholder="users_mailer:" />
+            <marker date="1385336998033" expanded="true" signature="52597:53130" placeholder="notifications:" />
+            <marker date="1385336998033" expanded="true" signature="52883:53130" placeholder="updates:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1375,7 +1334,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds/my-seeds-local.example.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.60588235">
+        <state line="61" column="39" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/locale.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="456" selection-end="456" vertical-scroll-proportion="0.105882354">
           <folding />
         </state>
       </provider>
