@@ -2,542 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/ProjectUpdate.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/background_full.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg64x64_s3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/box_en.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/box_pt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/comum_logo127x27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/expiring_icon20x22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/explore_icon21x14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/faq_video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon-moip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon-paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_soldout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/multide_logo55x36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/opendata_icon26x26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/partners_icon26x26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/play89x89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/post_title_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/power_logo200x43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/recents_icon18x23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/recents_icon31x17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/recompensa24x20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/reward_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/search_submit15x15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_adriano.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_diego.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_diogo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_evelise.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_luciana.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_luis.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_renato.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_rodrigo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/team_ton.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/thumb_step.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/thumbs_up_icon16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/title_component149x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/title_component241x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/catarse/video_sample_cover477x330.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/channels/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/locales/en.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/locales/es.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/locales/list.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/locales/pt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/adm/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/content/_header.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/content/_recommended_header.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/adm/adm.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/backers/_create.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/static/_about.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/adm/backers_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/adm/base_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/adm/financials_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/adm/projects_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/adm/reports/backer_reports_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/adm/reports/base_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/adm/statistics_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/adm/users_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/channels/adm/projects_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/emails_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/channels/base_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/notification_type.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/observers/notification_observer.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/uploaders/logo_uploader.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/adm/backers/index.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/adm/financials/index.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/adm/projects/index.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/adm/statistics/index.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/adm/users/index.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/channels/adm/projects/index.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/channels/profiles/how_it_works.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/channels/profiles/show.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/channels/projects/new.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/passwords/new.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/shared/_alert.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/shared/_header.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/shared/_links.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/_uservoice.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/catarse_bootstrap.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/adm_project_deadline.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/adm_project_deadline.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/backer_canceled_after_confirmed.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/backer_confirmed_after_project_was_closed.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/backer_confirmed_after_project_was_closed.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/backer_project_successful.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/backer_project_successful.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/backer_project_unsuccessful.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/backer_project_unsuccessful.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/confirm_backer.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/confirm_backer.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/credits_warning.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/credits_warning.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/new_draft_project.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/new_draft_project.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/new_draft_project_channel.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/new_draft_project_channel.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/new_features.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/new_features.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/payment_slip.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/payment_slip.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/pending_backer_project_unsuccessful.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/pending_backer_project_unsuccessful.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/processing_payment.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/processing_payment.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_in_wainting_funds.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_in_wainting_funds.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_owner_backer_confirmed.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_owner_backer_confirmed.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_received.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_received.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_received_channel.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_received_channel.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_rejected.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_rejected.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_success.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_success.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_unsuccessful.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_unsuccessful.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_visible.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/project_visible.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/temporary_password.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/temporary_password.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/updates.en.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/notifications_mailer/updates.pt.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/projects/_recommended_header.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/projects/backers/create.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/static/about.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/set_email.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/workers/notify_update_worker.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/timeout.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/adm.en.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/adm.pt.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/notifications.en.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/notifications.pt.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/seeds/my-seeds.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/abilities/trustee_ability_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/adm/backers_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/adm/statistics_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/adm/users_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/fixtures/tumblr_data.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/helpers/channels/base_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/javascripts/registration_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/channel/channel_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/observers/notification_observer_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/uploaders/logo_uploader_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/views/channels/base/index.html.slim_spec.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/back_icons.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/back_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/backed_icon.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/backed_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/backer_city.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/backer_city.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/backer_info.gif" afterPath="$PROJECT_DIR$/app/assets/images/catarse/backer_info.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/backer_info.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/backer_info.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/channels/banner.png" afterPath="$PROJECT_DIR$/app/assets/images/channels/banner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_air.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_air.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_explore.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_explore.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_finish.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_finish.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_guardian.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_guardian.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_heartbacker.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_heartbacker.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_money.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_money.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_moneytag.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_moneytag.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_requirements.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_requirements.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_s3.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_s3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_send.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_send.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_steps.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_steps.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips1.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips2.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips3.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips4.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips5.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips6.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips7.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips8.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_tips8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/blog_icon17x14.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/blog_icon17x14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/boleto_icon.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/boleto_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bot_profileUser.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bot_profileUser.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/box_alert.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/box_alert.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/box_download.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/box_download.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/bullet-green.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bullet-green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/button_explore.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/button_explore.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/button_send.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/button_send.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/channels/capa_asas.jpg" afterPath="$PROJECT_DIR$/app/assets/images/channels/capa_asas.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/category_icon14x14.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/category_icon14x14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/cc_icon.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/cc_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/comments_icon28x18.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/comments_icon28x18.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/confirmed_icon.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/confirmed_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/delete_16.png" afterPath="$PROJECT_DIR$/app/assets/images/delete_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/delete_16.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/delete_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/dropdown.png" afterPath="$PROJECT_DIR$/app/assets/images/dropdown.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/embed_icon19x9.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/embed_icon19x9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/explore_icon23x15.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/explore_icon23x15.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/auth/facebook_64.png" afterPath="$PROJECT_DIR$/app/assets/images/auth/facebook_64.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/facebook_black_icon.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/facebook_black_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/facebook_icon13x26.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/facebook_icon13x26.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/facebook_share.png" afterPath="$PROJECT_DIR$/app/assets/images/facebook_share.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/faq_icon18x18.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/faq_icon18x18.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagCity.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagCity.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagCityMg.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagCityMg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagCityPoa.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagCityPoa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagCityRJ.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagCityRJ.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagName.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagName.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagNameMg.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagNameMg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagNamePoa.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagNamePoa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagNameRJ.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagNameRJ.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/flagNameSP.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/flagNameSP.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/gift-reward.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/gift-reward.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/gift.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/gift.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/glyphicons-halflings-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/goal_icon36x17.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/goal_icon36x17.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/gravatar.png" afterPath="$PROJECT_DIR$/app/assets/images/gravatar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/guia_realizadores.pdf" afterPath="$PROJECT_DIR$/public/guia_realizadores.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/channels/header_system.png" afterPath="$PROJECT_DIR$/app/assets/images/channels/header_system.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/heart_icon17x14.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/heart_icon17x14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon-fb.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon-fb.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon-tw.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon-tw.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icon_alertheader.png" afterPath="$PROJECT_DIR$/app/assets/images/icon_alertheader.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep1.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep2.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep3.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep4.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep5.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_backerstep5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_backersucessfull.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_backersucessfull.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_backproject.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_backproject.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_bold.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_bold.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_calc.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_calc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_colective.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_colective.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_creative.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_creative.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_credits.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_credits.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_creditsmoney.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_creditsmoney.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_datestart.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_datestart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_donation.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_donation.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_faq.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_faq.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_gift.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_gift.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_guidebacker.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_guidebacker.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_guidelinesstart.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_guidelinesstart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_heart.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_heart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_italic.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_italic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_licosts.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_licosts.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_limagic.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_limagic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_limoney.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_limoney.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_link.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_link.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_linktext.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_linktext.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_logo.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_media.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_media.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_new.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_new.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_nonprofit.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_nonprofit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_projectnotfunded.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_projectnotfunded.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_projectsuccess.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_projectsuccess.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_refreshproject.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_refreshproject.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_rewards.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_rewards.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_social.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_social.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_step1.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_step1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_step2.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_step2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_step3.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_step3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_step4.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_step4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_submitbacker.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_submitbacker.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_tag.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_tag.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_time.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_time.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_url.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_url.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_video.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_video.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/icon_vimeo.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_vimeo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/institutional_video_icon16x16.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/institutional_video_icon16x16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/label_green.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/label_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/label_green_list.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/label_green_list.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/label_orange.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/label_orange.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/label_orange_list.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/label_orange_list.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/link_icon14x14.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/link_icon14x14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/list_cards.jpg" afterPath="$PROJECT_DIR$/app/assets/images/list_cards.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/loading.gif" afterPath="$PROJECT_DIR$/app/assets/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/login_with_facebook_button310x60.png" afterPath="$PROJECT_DIR$/app/assets/images/login_with_facebook_button310x60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/login_with_facebook_button356x60.png" afterPath="$PROJECT_DIR$/app/assets/images/login_with_facebook_button356x60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/logo-fb.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/logo-fb.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/logo.png" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/logo.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/channels/logo_asas_notificacao.png" afterPath="$PROJECT_DIR$/app/assets/images/channels/logo_asas_notificacao.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/logo_icon_catarse.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/logo_icon_catarse.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/min_star12x11.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/min_star12x11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/moip-choice.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/moip-choice.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/newsletter_icon18x15.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/newsletter_icon18x15.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/not_successful.en.png" afterPath="$PROJECT_DIR$/app/assets/images/not_successful.en.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/not_successful.es.png" afterPath="$PROJECT_DIR$/app/assets/images/not_successful.es.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/not_successful.pt.png" afterPath="$PROJECT_DIR$/app/assets/images/not_successful.pt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/payment_account.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/payment_account.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/payment_cards.jpg" afterPath="$PROJECT_DIR$/app/assets/images/catarse/payment_cards.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/paypal-choice.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/paypal-choice.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/pencil_16.png" afterPath="$PROJECT_DIR$/app/assets/images/pencil_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/pencil_16.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/pencil_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/profile_icon19x14.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/profile_icon19x14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/project_about.png" afterPath="$PROJECT_DIR$/app/assets/images/project_about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/project_about.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/project_about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/project_menu_selected.png" afterPath="$PROJECT_DIR$/app/assets/images/project_menu_selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/reward_box.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/reward_box.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/reward_count_icon18x17.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/reward_count_icon18x17.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/rewards_left_border.png" afterPath="$PROJECT_DIR$/app/assets/images/rewards_left_border.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/rewards_right_border.png" afterPath="$PROJECT_DIR$/app/assets/images/rewards_right_border.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/schedule_icon19x22.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/schedule_icon19x22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/sidebar_backers_icon26x19.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/sidebar_backers_icon26x19.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/social_big_icons.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/social_big_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/social_icons.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/social_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/submit_back_icon25x22.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/submit_back_icon25x22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/submit_project_icon25x13.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/submit_project_icon25x13.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/successful.en.png" afterPath="$PROJECT_DIR$/app/assets/images/successful.en.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/successful.es.png" afterPath="$PROJECT_DIR$/app/assets/images/successful.es.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/channels/successful.png" afterPath="$PROJECT_DIR$/app/assets/images/channels/successful.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/successful.pt.png" afterPath="$PROJECT_DIR$/app/assets/images/successful.pt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/tick_16.png" afterPath="$PROJECT_DIR$/app/assets/images/tick_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/tick_16.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/tick_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/tick_32.png" afterPath="$PROJECT_DIR$/app/assets/images/tick_32.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/time_icon19x30.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/time_icon19x30.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/auth/twitter_64.png" afterPath="$PROJECT_DIR$/app/assets/images/auth/twitter_64.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/twitter_black_icon.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/twitter_black_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/catarse/twitter_icon28x24.png" afterPath="$PROJECT_DIR$/app/assets/images/catarse/twitter_icon28x24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/twitter_share.png" afterPath="$PROJECT_DIR$/app/assets/images/twitter_share.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_diagonals-small_0_aaaaaa_40x40.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_diagonals-small_0_aaaaaa_40x40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_diagonals-thick_15_444444_40x40.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_diagonals-thick_15_444444_40x40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_diagonals-thick_95_ffdc2e_40x40.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_diagonals-thick_95_ffdc2e_40x40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_glass_55_fbf5d0_1x400.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_glass_55_fbf5d0_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-hard_30_285c00_1x100.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-hard_30_285c00_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-soft_33_3a8104_1x100.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-soft_33_3a8104_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-soft_50_4eb305_1x100.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-soft_50_4eb305_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-soft_60_4ca20b_1x100.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-soft_60_4ca20b_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_inset-soft_10_285c00_1x100.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_inset-soft_10_285c00_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-icons_4eb305_256x240.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-icons_4eb305_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-icons_72b42d_256x240.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-icons_72b42d_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-icons_cd0a0a_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/app/assets/images/jquery-ui/ui-icons_ffffff_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/user.png" afterPath="$PROJECT_DIR$/app/assets/images/user.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/waiting_confirmation.en.png" afterPath="$PROJECT_DIR$/app/assets/images/waiting_confirmation.en.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/waiting_confirmation.es.png" afterPath="$PROJECT_DIR$/app/assets/images/waiting_confirmation.es.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/waiting_confirmation.pt.png" afterPath="$PROJECT_DIR$/app/assets/images/waiting_confirmation.pt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/422.html" afterPath="$PROJECT_DIR$/public/422.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/500.html" afterPath="$PROJECT_DIR$/public/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIT-LICENSE" afterPath="$PROJECT_DIR$/MIT-LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_admin_fields.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_admin_fields.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_alerts.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_alerts.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_analytics.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_analytics.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_announcement.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_announcement.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/backers/_backer.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/backers/_backer.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/content/_body.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/content/_body.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_buttons.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_buttons.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_colors.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_colors.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/miv/_colors.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/miv/_colors.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_credits.html.slim" afterPath="$PROJECT_DIR$/app/views/users/_credits.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/static/_default.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resources/static/_default.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_draft_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_draft_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/miv/_dropdown.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/miv/_dropdown.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_elements.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_elements.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_facebook_like.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_facebook_like.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_failed_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_failed_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_flash.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_flash.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_fonts.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_fonts.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/content/_footer.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/content/_footer.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rewards/_form.html.slim" afterPath="$PROJECT_DIR$/app/views/rewards/_form.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_formatting_tips.en.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_formatting_tips.en.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_formatting_tips.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_formatting_tips.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/projects/_index.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resources/projects/_index.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_new_uservoice.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_new_uservoice.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_notices.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_notices.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_online_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_online_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/channels/_profile.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resources/channels/_profile.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/channels/projects/_project.html.slim" afterPath="$PROJECT_DIR$/app/views/channels/projects/_project.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_project.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_project.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_project.html.slim" afterPath="$PROJECT_DIR$/app/views/users/_project.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_project_edit.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_project_edit.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_project_reports.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_project_reports.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/miv/_projects.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/miv/_projects.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_rejected_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_rejected_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/projects/_rewards.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resources/projects/_rewards.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_settings.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_settings.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/projects/_show.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resources/projects/_show.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resources/users/_show.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resources/users/_show.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_successful_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_successful_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_unsubscribes.html.slim" afterPath="$PROJECT_DIR$/app/views/users/_unsubscribes.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/updates/_update.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/updates/_update.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ability.rb" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/ability_spec.rb" afterPath="$PROJECT_DIR$/spec/models/ability_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/app_spec.js" afterPath="$PROJECT_DIR$/spec/javascripts/app_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/authorization.rb" afterPath="$PROJECT_DIR$/app/models/authorization.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/authorizations_spec.rb" afterPath="$PROJECT_DIR$/spec/models/authorizations_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/backer.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/backer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/backer.rb" afterPath="$PROJECT_DIR$/app/models/backer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/observers/backer_observer.rb" afterPath="$PROJECT_DIR$/app/observers/backer_observer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/observers/backer_observer_spec.rb" afterPath="$PROJECT_DIR$/spec/observers/backer_observer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/backer_report.rb" afterPath="$PROJECT_DIR$/app/models/backer_report.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/backer_reports_for_project_owner.rb" afterPath="$PROJECT_DIR$/app/models/backer_reports_for_project_owner.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/reports/backer_reports_for_project_owners_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/reports/backer_reports_for_project_owners_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/backer_spec.rb" afterPath="$PROJECT_DIR$/spec/models/backer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/backers_by_period.rb" afterPath="$PROJECT_DIR$/app/models/backers_by_period.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects/backers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects/backers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users/backers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users/backers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/projects/backers_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/projects/backers_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/users/backers_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/users/backers_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/catarse-master.iml" afterPath="$PROJECT_DIR$/.idea/catarse-master.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/category.rb" afterPath="$PROJECT_DIR$/app/models/category.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/channel.rb" afterPath="$PROJECT_DIR$/app/models/channel.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/decorators/channel_decorator.rb" afterPath="$PROJECT_DIR$/app/decorators/channel_decorator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/channels.pt.yml" afterPath="$PROJECT_DIR$/config/locales/channels.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/channels/channels_subscribers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/channels/channels_subscribers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/channels/channels_subscribers_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/channels/channels_subscribers_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/credits_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/credits_mailer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/cron.rake" afterPath="$PROJECT_DIR$/lib/tasks/cron.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/default_url_options.rb" afterPath="$PROJECT_DIR$/config/initializers/default_url_options.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.pt.yml" afterPath="$PROJECT_DIR$/config/locales/devise.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/devise.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/devise.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/email.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/email.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/explore.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/explore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/explore_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/explore_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/explore_spec.js" afterPath="$PROJECT_DIR$/spec/javascripts/explore_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories.rb" afterPath="$PROJECT_DIR$/spec/factories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/support/feature_helpers.rb" afterPath="$PROJECT_DIR$/spec/support/feature_helpers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/forgot_password.en.yml" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/forgot_password.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/forgot_password.pt.yml" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/forgot_password.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/grid/foundation.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/grid/foundation.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static/guidelines_backers.html.slim" afterPath="$PROJECT_DIR$/app/views/static/guidelines_backers.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static/guidelines_start.html.slim" afterPath="$PROJECT_DIR$/app/views/static/guidelines_start.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/explore/index.html.slim" afterPath="$PROJECT_DIR$/app/views/explore/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/index.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rewards/index.html.slim" afterPath="$PROJECT_DIR$/app/views/rewards/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/lib/infinite_scroll.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/lib/infinite_scroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/support/jasmine.yml" afterPath="$PROJECT_DIR$/spec/javascripts/support/jasmine.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/login.pt.yml" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/login.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/mix_panel.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/mix_panel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/mix_panel_spec.js" afterPath="$PROJECT_DIR$/spec/javascripts/mix_panel_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/new.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/new.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/backers/new.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/backers/new.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/updates/new.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/updates/new.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/notification.rb" afterPath="$PROJECT_DIR$/app/models/notification.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/notification_spec.rb" afterPath="$PROJECT_DIR$/spec/models/notification_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/notifications_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/notifications_mailer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/mailers/notifications_mailer_spec.rb" afterPath="$PROJECT_DIR$/spec/mailers/notifications_mailer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/omniauth_callbacks_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/omniauth_callbacks_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/passwords_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/passwords_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/payment.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/payment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/payment_engines.rb" afterPath="$PROJECT_DIR$/lib/payment_engines.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/observers/payment_notification_observer.rb" afterPath="$PROJECT_DIR$/app/observers/payment_notification_observer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/observers/payment_notification_observer_spec.rb" afterPath="$PROJECT_DIR$/spec/observers/payment_notification_observer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/channels/profiles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/channels/profiles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/project.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/project.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/project.rb" afterPath="$PROJECT_DIR$/app/models/project.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/project/project_backers.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/project/project_backers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/project/project_comments.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/project/project_comments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/decorators/project_decorator.rb" afterPath="$PROJECT_DIR$/app/decorators/project_decorator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/decorators/project_decorator_spec.rb" afterPath="$PROJECT_DIR$/spec/decorators/project_decorator_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/observers/project_observer.rb" afterPath="$PROJECT_DIR$/app/observers/project_observer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/observers/project_observer_spec.rb" afterPath="$PROJECT_DIR$/spec/observers/project_observer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/project/project_sidebar.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/project/project_sidebar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/project_spec.rb" afterPath="$PROJECT_DIR$/spec/models/project_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/project_total_spec.rb" afterPath="$PROJECT_DIR$/spec/models/project_total_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/projects_by_period.rb" afterPath="$PROJECT_DIR$/app/models/projects_by_period.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/channels/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/channels/projects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/projects_spec.rb" afterPath="$PROJECT_DIR$/spec/features/projects_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt.yml" afterPath="$PROJECT_DIR$/config/locales/pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/rails.en.yml" afterPath="$PROJECT_DIR$/config/locales/rails.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/rails.pt.yml" afterPath="$PROJECT_DIR$/config/locales/rails.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/registration.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/registration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/reset_password.en.yml" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/reset_password.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/reset_password.pt.yml" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/reset_password.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/review_form.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/review_form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/review_form_spec.js" afterPath="$PROJECT_DIR$/spec/javascripts/review_form_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/reward.rb" afterPath="$PROJECT_DIR$/app/models/reward.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/reward_spec.rb" afterPath="$PROJECT_DIR$/spec/models/reward_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/rewards_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/rewards_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/rewards_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/rewards_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/secret_token.rb" afterPath="$PROJECT_DIR$/config/initializers/secret_token.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/config/initializers/secret_token_spec.rb" afterPath="$PROJECT_DIR$/spec/config/initializers/secret_token_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/show.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/show.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/backers/show.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/backers/show.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/sign_up.en.yml" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/sign_up.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/sign_up.pt.yml" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/sign_up.pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/lib/skull.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/lib/skull.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/skull_spec.js" afterPath="$PROJECT_DIR$/spec/javascripts/skull_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/state.rb" afterPath="$PROJECT_DIR$/app/models/state.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/static_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/static_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/static_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/statistics_spec.rb" afterPath="$PROJECT_DIR$/spec/models/statistics_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/unsubscribe.rb" afterPath="$PROJECT_DIR$/app/models/unsubscribe.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/unsubscribe_spec.rb" afterPath="$PROJECT_DIR$/spec/models/unsubscribe_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/unsubscribes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/unsubscribes_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/unsubscribes_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/unsubscribes_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/update.rb" afterPath="$PROJECT_DIR$/app/models/update.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/observers/update_observer.rb" afterPath="$PROJECT_DIR$/app/observers/update_observer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/observers/update_observer_spec.rb" afterPath="$PROJECT_DIR$/spec/observers/update_observer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/update_spec.rb" afterPath="$PROJECT_DIR$/spec/models/update_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/project/updates.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/project/updates.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects/updates_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects/updates_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/updates_spec.js" afterPath="$PROJECT_DIR$/spec/javascripts/updates_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/user.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/user/user_backers.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/user/user_backers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/decorators/user_decorator.rb" afterPath="$PROJECT_DIR$/app/decorators/user_decorator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/decorators/user_decorator_spec.rb" afterPath="$PROJECT_DIR$/spec/decorators/user_decorator_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/observers/user_observer.rb" afterPath="$PROJECT_DIR$/app/observers/user_observer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/observers/user_observer_spec.rb" afterPath="$PROJECT_DIR$/spec/observers/user_observer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/users.rake" afterPath="$PROJECT_DIR$/lib/tasks/users.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/users_spec.rb" afterPath="$PROJECT_DIR$/spec/features/users_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/uservoice_gadget.html.slim" afterPath="$PROJECT_DIR$/app/views/users/uservoice_gadget.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/will_paginate.pt.yml" afterPath="$PROJECT_DIR$/config/locales/will_paginate.pt.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/banner-3years.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse/bg_rewards.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/botao_bemvindo_EN_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/botao_bemvindo_PT_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/catarse-assets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/browser_logos/chrome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse_bootstrap/feedback-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/browser_logos/firefox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/catarse/icon_liwork~imageoptim.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_boxes.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resources/backers/_edit.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_footers.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_forms.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/miv/_header.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_headers.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_links.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/miv/_main_sidebar.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_menus.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/miv/_newsletter.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_paginations.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/shared/_project_box.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/miv/_project_box.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_tables.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/admin.en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/admin.pt.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resources/admin/admin.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/autospec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/decorators/backer_decorator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/bad_browser.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/lib/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/bundle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/workers/campaign_finisher_worker.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse.css.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/channels.en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/channels/profiles/edit.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/devise/feedback_support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/lib/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/how_it_works.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/channels/admin/projects/index.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/channels/admin/statistics/index.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/channels/profiles/new.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/channels/projects/new.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/workers/notification_worker.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/uploaders/profile_uploader.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/workers/project_downloader_worker.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/project_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/uploaders/project_uploader.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/rails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/reset_password.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/decorators/reward_decorator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/rspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/lib/show_password_input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/submit_project.en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/pages/submit_project.pt.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/lib/timed_input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/models/user.en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/catarse_bootstrap/models/user.pt.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/uploaders/user_uploader.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catarse-master.iws" />
@@ -564,7 +92,7 @@
     <file path="$PROJECT_DIR$/../betastore/config/routes.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385078059319" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/test/models/order_test.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
-    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385346205945" ignored="false" />
+    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385346405552" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/.idea/workspace.xml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385089360362" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/app/models/credit_card.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
     <file path="/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
@@ -778,6 +306,126 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -824,7 +472,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploaders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -865,6 +545,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse_bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1173,7 +879,11 @@
       <created>1385222025397</created>
       <updated>1385222025397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Language changes">
+      <created>1385346415137</created>
+      <updated>1385346415137</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1200,21 +910,21 @@
     <frame x="65" y="24" width="927" height="1056" extended-state="4" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4095563" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4095563" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1295,7 +1005,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/rails.en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="4947" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="4947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/rails.pt.yml">
