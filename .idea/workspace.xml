@@ -2,76 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_analysis_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_analysis_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/channels/projects/_banner.html.slim" afterPath="$PROJECT_DIR$/app/views/channels/projects/_banner.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_draft_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_draft_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_failed_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_failed_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_online_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_online_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_project_edit.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_project_edit.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_rejected_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_rejected_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_successful_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_successful_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_twitter_timeline.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_twitter_timeline.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/adm_project_deadline.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/adm_project_deadline.en.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/adm_project_deadline.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/adm_project_deadline.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.en.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.en.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_canceled_after_confirmed.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_canceled_after_confirmed.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_confirmed_after_project_was_closed.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_confirmed_after_project_was_closed.en.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_confirmed_after_project_was_closed.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_confirmed_after_project_was_closed.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_successful.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_successful.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_successful.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_successful.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_unsuccessful.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_unsuccessful.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_unsuccessful.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_unsuccessful.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/carrierwave.rb" afterPath="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/confirm_backer.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/confirm_backer.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/confirm_backer.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/confirm_backer.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/credits_warning.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/credits_warning.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/credits_warning.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/credits_warning.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/cron.rake" afterPath="$PROJECT_DIR$/lib/tasks/cron.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project_channel.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project_channel.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/index.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project.en.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project_channel.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project_channel.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_features.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_features.en.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.en.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.en.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.en.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/payment_slip.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/payment_slip.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/payment_slip.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/payment_slip.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/pending_backer_project_unsuccessful.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/pending_backer_project_unsuccessful.en.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/pending_backer_project_unsuccessful.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/pending_backer_project_unsuccessful.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/processing_payment.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/processing_payment.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/processing_payment.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/processing_payment.pt.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_in_wainting_funds.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_in_wainting_funds.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_in_wainting_funds.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_in_wainting_funds.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_owner_backer_confirmed.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_owner_backer_confirmed.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_owner_backer_confirmed.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_owner_backer_confirmed.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received_channel.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received_channel.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected_channel.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected_channel.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_success.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_success.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_success.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_success.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_unsuccessful.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_unsuccessful.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_unsuccessful.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_unsuccessful.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible_channel.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible_channel.text.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/updates.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/updates.pt.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/updates.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/updates.pt.text.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catarse-master.iws" />
@@ -98,7 +28,7 @@
     <file path="$PROJECT_DIR$/../betastore/config/routes.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385078059319" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/test/models/order_test.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
-    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422109440" ignored="false" />
+    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385424338779" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/.idea/workspace.xml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385089360362" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/app/models/credit_card.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
     <file path="/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
@@ -199,7 +129,7 @@
       <file leaf-file-name="index.html.slim" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="42" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.21118012">
+            <state line="1" column="42" selection-start="50" selection-end="50" vertical-scroll-proportion="0.01863354">
               <folding />
             </state>
           </provider>
@@ -289,7 +219,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="63" />
-    <option name="y" value="15" />
+    <option name="y" value="24" />
     <option name="width" value="1654" />
     <option name="height" value="1056" />
   </component>
@@ -1076,7 +1006,11 @@
       <created>1385422113935</created>
       <updated>1385422113935</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="More translations and set TODO's for translations in views">
+      <created>1385424346170</created>
+      <updated>1385424346170</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1100,7 +1034,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="15" width="1654" height="1056" extended-state="0" />
+    <frame x="63" y="24" width="1654" height="1056" extended-state="4" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1165,7 +1099,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed  back and project abilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="More translations and set TODO's for translations in views" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1185,6 +1119,7 @@
     <MESSAGE value="Gemfile and logo update" />
     <MESSAGE value="Language and routes update" />
     <MESSAGE value="Fixed  back and project abilities" />
+    <MESSAGE value="More translations and set TODO's for translations in views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1297,7 +1232,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="42" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.21118012">
+        <state line="1" column="42" selection-start="50" selection-end="50" vertical-scroll-proportion="0.01863354">
           <folding />
         </state>
       </provider>
