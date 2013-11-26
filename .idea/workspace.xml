@@ -2,16 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ability.rb" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/backer.rb" afterPath="$PROJECT_DIR$/app/models/backer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/observers/backer_observer.rb" afterPath="$PROJECT_DIR$/app/observers/backer_observer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/observers/backer_observer_spec.rb" afterPath="$PROJECT_DIR$/spec/observers/backer_observer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/backer_spec.rb" afterPath="$PROJECT_DIR$/spec/models/backer_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_analysis_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_analysis_warning.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/channels/projects/_banner.html.slim" afterPath="$PROJECT_DIR$/app/views/channels/projects/_banner.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_draft_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_draft_warning.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_failed_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_failed_warning.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_online_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_online_warning.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_project_edit.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_project_edit.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_rejected_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_rejected_warning.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_successful_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_successful_warning.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_twitter_timeline.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_twitter_timeline.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/adm_project_deadline.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/adm_project_deadline.en.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/adm_project_deadline.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/adm_project_deadline.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.en.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.en.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_canceled_after_confirmed.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_canceled_after_confirmed.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.pt.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_confirmed_after_project_was_closed.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_confirmed_after_project_was_closed.en.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_confirmed_after_project_was_closed.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_confirmed_after_project_was_closed.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_successful.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_successful.pt.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_successful.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_successful.pt.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_unsuccessful.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/backer_project_unsuccessful.pt.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_unsuccessful.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_unsuccessful.pt.text.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/carrierwave.rb" afterPath="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/confirm_backer.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/confirm_backer.pt.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/confirm_backer.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/confirm_backer.pt.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/credits_warning.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/credits_warning.pt.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/credits_warning.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/credits_warning.pt.text.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/cron.rake" afterPath="$PROJECT_DIR$/lib/tasks/cron.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/project.rb" afterPath="$PROJECT_DIR$/app/models/project.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/in_analysis_project_channel.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/in_analysis_project_channel.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/index.html.slim" afterPath="$PROJECT_DIR$/app/views/projects/index.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project.en.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_draft_project_channel.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_draft_project_channel.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_features.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_features.en.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.en.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.en.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.en.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/new_user_registration.pt.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/new_user_registration.pt.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/payment_slip.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/payment_slip.pt.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/payment_slip.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/payment_slip.pt.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/pending_backer_project_unsuccessful.en.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/pending_backer_project_unsuccessful.en.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/pending_backer_project_unsuccessful.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/pending_backer_project_unsuccessful.pt.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/processing_payment.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/processing_payment.pt.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/processing_payment.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/processing_payment.pt.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_in_wainting_funds.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_in_wainting_funds.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_in_wainting_funds.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_in_wainting_funds.text.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_owner_backer_confirmed.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_owner_backer_confirmed.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/project_spec.rb" afterPath="$PROJECT_DIR$/spec/models/project_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_owner_backer_confirmed.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_owner_backer_confirmed.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_received_channel.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_received_channel.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_rejected_channel.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_rejected_channel.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_success.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_success.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_success.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_success.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_unsuccessful.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_unsuccessful.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_unsuccessful.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_unsuccessful.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_visible_channel.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible_channel.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/project_visible_channel.text.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/updates.pt.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/updates.pt.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/updates.pt.text.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/updates.pt.text.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catarse-master.iws" />
@@ -38,7 +98,7 @@
     <file path="$PROJECT_DIR$/../betastore/config/routes.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385078059319" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/test/models/order_test.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
-    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385421159366" ignored="false" />
+    <file path="/Dummy.txt" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422109440" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/.idea/workspace.xml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385089360362" ignored="false" />
     <file path="$PROJECT_DIR$/../betastore/app/models/credit_card.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077643496" ignored="false" />
     <file path="/Gemfile" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385077721492" ignored="false" />
@@ -62,6 +122,25 @@
     <file path="$PROJECT_DIR$/../catarse-master/config/locales/pt.yml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385222093707" ignored="false" />
     <file path="/locale.rb" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385348241068" ignored="false" />
     <file path="/pt.yml" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385420066803" ignored="false" />
+    <file path="/adm_project_deadline.en.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422296530" ignored="false" />
+    <file path="/in_analysis_project.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422377904" ignored="false" />
+    <file path="/new_user_registration.en.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422446979" ignored="false" />
+    <file path="/pending_backer_project_unsuccessful.en.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422502044" ignored="false" />
+    <file path="/project_in_wainting_funds.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422545291" ignored="false" />
+    <file path="/project_owner_backer_confirmed.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422552840" ignored="false" />
+    <file path="/project_received.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422559856" ignored="false" />
+    <file path="/project_received_channel.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422566354" ignored="false" />
+    <file path="/project_rejected.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422572519" ignored="false" />
+    <file path="/project_rejected_channel.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422579996" ignored="false" />
+    <file path="/project_success.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422586351" ignored="false" />
+    <file path="/project_unsuccessful.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422593292" ignored="false" />
+    <file path="/project_visible.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422599278" ignored="false" />
+    <file path="/adm_project_deadline.text.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422674941" ignored="false" />
+    <file path="/backer_canceled_after_confirmed.en.text.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422869660" ignored="false" />
+    <file path="/backer_canceled_after_confirmed.pt.text.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422926539" ignored="false" />
+    <file path="/_banner.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385422980281" ignored="false" />
+    <file path="/_footer.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385423066751" ignored="false" />
+    <file path="/_draft_warning.html.slim" changelist="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" time="1385423297016" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,91 +160,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rails.en.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/rails.en.yml">
+      <file leaf-file-name="_twitter_timeline.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/_twitter_timeline.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+      <file leaf-file-name="_waiting_funds_warning.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="3" selection-start="7530" selection-end="7530" vertical-scroll-proportion="0.0">
+            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backer_observer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/observers/backer_observer.rb">
+      <file leaf-file-name="embed.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/embed.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="3" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_owner_backer_confirmed.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_owner_backer_confirmed.html.slim">
+      <file leaf-file-name="embed_panel.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/embed_panel.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="26" selection-start="833" selection-end="833" vertical-scroll-proportion="-12.5">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backer_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/backer_spec.rb">
+      <file leaf-file-name="index.html.slim" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="251" column="3" selection-start="8411" selection-end="8411" vertical-scroll-proportion="0.0">
+            <state line="1" column="42" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.21118012">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
+      <file leaf-file-name="_header.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="558" column="3" selection-start="16507" selection-end="16507" vertical-scroll-proportion="0.0">
+            <state line="10" column="62" selection-start="442" selection-end="454" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backer_observer_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/observers/backer_observer_spec.rb">
+      <file leaf-file-name="channel_email.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/channel_email.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="24" selection-start="3159" selection-end="3159" vertical-scroll-proportion="0.2980936">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/backer.rb">
+      <file leaf-file-name="new.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="3" selection-start="3870" selection-end="3870" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ability.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
+      <file leaf-file-name="_project.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="3" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carrierwave.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+      <file leaf-file-name="guidelines_backers.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static/guidelines_backers.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="31" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -189,22 +268,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/locales/admin.en.yml" />
-        <option value="$PROJECT_DIR$/config/locales/channels.en.yml" />
-        <option value="$PROJECT_DIR$/config/locales/channels.pt.yml" />
-        <option value="$PROJECT_DIR$/config/locales/devise.en.yml" />
-        <option value="$PROJECT_DIR$/config/locales/devise.pt.yml" />
-        <option value="$PROJECT_DIR$/app/decorators/project_decorator.rb" />
-        <option value="$PROJECT_DIR$/lib/tasks/cron.rake" />
-        <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
-        <option value="$PROJECT_DIR$/app/models/ability.rb" />
-        <option value="$PROJECT_DIR$/app/models/backer.rb" />
-        <option value="$PROJECT_DIR$/app/models/project.rb" />
-        <option value="$PROJECT_DIR$/app/observers/backer_observer.rb" />
-        <option value="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_owner_backer_confirmed.html.slim" />
-        <option value="$PROJECT_DIR$/spec/models/backer_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/project_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/observers/backer_observer_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_project_successful.pt.text.slim" />
+        <option value="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.pt.text.slim" />
+        <option value="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/backer_canceled_after_confirmed.en.text.slim" />
+        <option value="$PROJECT_DIR$/app/views/channels/projects/_banner.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_draft_warning.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_analysis_warning.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_failed_warning.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_online_warning.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_project_edit.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_rejected_warning.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_successful_warning.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_twitter_timeline.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/embed.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/projects/index.html.slim" />
       </list>
     </option>
   </component>
@@ -287,38 +366,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="observers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -347,71 +394,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seeds" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,6 +427,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,6 +493,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="explore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="credits_mailer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,7 +676,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="observers" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse_bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -601,25 +702,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="decorators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catarse-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluFund" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="catarse_bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -981,7 +1072,11 @@
       <created>1385421161238</created>
       <updated>1385421161239</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed  back and project abilities">
+      <created>1385422113935</created>
+      <updated>1385422113935</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1009,12 +1104,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3319012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968867" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32627645" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1070,7 +1165,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Language and routes update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed  back and project abilities" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1089,119 +1184,120 @@
     <MESSAGE value="Update Rails &amp; Ruby" />
     <MESSAGE value="Gemfile and logo update" />
     <MESSAGE value="Language and routes update" />
+    <MESSAGE value="Fixed  back and project abilities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/locales/devise.en.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_project_edit.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="62" selection-start="922" selection-end="922" vertical-scroll-proportion="-4.0">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/simple_form.en.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_project_header.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/will_paginate.en.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_project_reports.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="15" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/decorators/project_decorator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="440" selection-end="440" vertical-scroll-proportion="-9.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/cron.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="3" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/rails.en.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_project_templates.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_rejected_warning.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="3" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.0">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/backer.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_successful_warning.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="3" selection-start="3870" selection-end="3870" vertical-scroll-proportion="0.0">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_twitter_timeline.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="3" selection-start="7530" selection-end="7530" vertical-scroll-proportion="0.0">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/observers/backer_observer.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_waiting_funds_warning.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="3" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/project_owner_backer_confirmed.html.slim">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/embed.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="833" selection-end="833" vertical-scroll-proportion="-12.5">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/backer_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/embed_panel.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="251" column="3" selection-start="8411" selection-end="8411" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="558" column="3" selection-start="16507" selection-end="16507" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/observers/backer_observer_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/static/guidelines_backers.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="24" selection-start="3159" selection-end="3159" vertical-scroll-proportion="0.2980936">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/channel_email.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="62" selection-start="442" selection-end="454" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="42" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.21118012">
           <folding />
         </state>
       </provider>

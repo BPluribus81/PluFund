@@ -1,19 +1,19 @@
 - user = @notification.user
 - expiring = ProjectsForHome.expiring
 
-| Olá
+| Hey
 - if user.name
   | , #{user.name}!
 
 br/
 br/
-| Bem-vindo ao Catarse. A comunidade de financiamento coletivo mais receptiva do Brasil!
+| Welcome to Pluribus Fund. The most welcoming crowdfunding community in the Washington D.C. Metropolitan Area.
 br/
 br/
-| Só para você não se esquecer, o seu email de acesso é: #{user.email}
+| Keep in mind that your email to log in is: #{user.email}
 br/
 br/
-| Para começar, vale conhecer três projetos que estão na reta final:
+| For starters, it is worth knowing three projects that are in the final days:
 br/
 br/
 br/
@@ -31,12 +31,11 @@ br/
 br/
 center
   = link_to explore_url, target: '__blank' do
-    = image_tag "#{::Configuration[:base_url]}/assets/catarse_bootstrap/botao_bemvindo_PT_big.png"
-
+    = image_tag "#{::Configuration[:base_url]}/assets/catarse_bootstrap/botao_bemvindo_EN_big.png"
 
 br
 br
-| Abraços,
+| Best,
 br
 = Configuration[:company_name]
 
