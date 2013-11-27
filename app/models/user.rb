@@ -4,13 +4,13 @@ class User < ActiveRecord::Base
   # :token_authenticatable, :encryptable, :confirmable, :lockable, :timeoutable and :omniauthable
   # :validatable
   devise :database_authenticatable, :registerable,
-    :recoverable, :rememberable, :trackable, :omniauthable
+         :recoverable, :rememberable, :trackable, :omniauthable
   begin
     # NOTE: Sync normal users on mailchimp
     sync_with_mailchimp subscribe_data: ->(user) {
-                          { EMAIL: user.email, FNAME: user.name,
-                          CITY: (user.address_city||'outro / other'), STATE: (user.address_state||'outro / other') }
-                        },
+      { EMAIL: user.email, FNAME: user.name,
+        CITY: (user.address_city||'outro / other'), STATE: (user.address_state||'outro / other') }
+    },
                         list_id: Configuration[:mailchimp_list_id],
                         subscribe_when: ->(user) { (user.newsletter_changed? && user.newsletter) || (user.newsletter && user.new_record?) },
                         unsubscribe_when: ->(user) { user.newsletter_changed? && !user.newsletter },
@@ -21,13 +21,13 @@ class User < ActiveRecord::Base
   end
 
   delegate  :display_name, :display_image, :short_name, :display_image_html,
-    :medium_name, :display_credits, :display_total_of_backs, :backs_text, :twitter_link, :gravatar_url,
-    to: :decorator
+            :medium_name, :display_credits, :display_total_of_backs, :backs_text, :twitter_link, :gravatar_url,
+            to: :decorator
 
   attr_accessible :email, :password, :password_confirmation, :remember_me, :name, :nickname,
-    :image_url, :uploaded_image, :bio, :newsletter, :full_name, :address_street, :address_number,
-    :address_complement, :address_neighbourhood, :address_city, :address_state, :address_zip_code, :phone_number,
-    :cpf, :state_inscription, :locale, :twitter, :facebook_link, :other_link, :moip_login
+                  :image_url, :uploaded_image, :bio, :newsletter, :full_name, :address_street, :address_number,
+                  :address_complement, :address_neighbourhood, :address_city, :address_state, :address_zip_code, :phone_number,
+                  :cpf, :state_inscription, :locale, :twitter, :facebook_link, :other_link, :moip_login
 
   mount_uploader :uploaded_image, UserUploader
 
@@ -65,15 +65,15 @@ class User < ActiveRecord::Base
   }
 
   scope :subscribed_to_updates, -> {
-     where("id NOT IN (
+    where("id NOT IN (
        SELECT user_id
        FROM unsubscribes
        WHERE project_id IS NULL)")
-   }
+  }
 
   scope :subscribed_to_project, ->(project_id) {
     who_backed_project(project_id).
-    where("id NOT IN (SELECT user_id FROM unsubscribes WHERE project_id = ?)", project_id)
+        where("id NOT IN (SELECT user_id FROM unsubscribes WHERE project_id = ?)", project_id)
   }
 
   scope :by_email, ->(email){ where('email ~* ?', email) }
@@ -89,30 +89,30 @@ class User < ActiveRecord::Base
   scope :by_key, ->(key){ where('EXISTS(SELECT true FROM backers WHERE backers.user_id = users.id AND backers.key ~* ?)', key) }
   scope :has_credits, -> { joins(:user_total).where('user_totals.credits > 0') }
   scope :has_not_used_credits_last_month, -> { has_credits.
-    where("NOT EXISTS (SELECT true FROM backers b WHERE current_timestamp - b.created_at < '1 month'::interval AND b.credits AND b.state = 'confirmed' AND b.user_id = users.id)")
+      where("NOT EXISTS (SELECT true FROM backers b WHERE current_timestamp - b.created_at < '1 month'::interval AND b.credits AND b.state = 'confirmed' AND b.user_id = users.id)")
   }
   scope :order_by, ->(sort_field){ order(sort_field) }
 
   def self.send_credits_notification
     has_not_used_credits_last_month.find_each do |user|
       Notification.notify_once(
-        :credits_warning,
-        user,
-        {user_id: user.id}
+          :credits_warning,
+          user,
+          {user_id: user.id}
       )
     end
   end
 
   def self.backer_totals
     connection.select_one(
-      self.all.
-      joins(:user_total).
-      select('
+        self.all.
+            joins(:user_total).
+            select('
         count(DISTINCT user_id) as users,
         count(*) as backers,
         sum(user_totals.sum) as backed,
         sum(user_totals.credits) as credits').
-      to_sql
+            to_sql
     ).reduce({}){|memo,el| memo.merge({ el[0].to_sym => BigDecimal.new(el[1] || '0') }) }
   end
 
@@ -144,16 +144,15 @@ class User < ActiveRecord::Base
   end
 
   def self.create_from_hash(hash)
-    find_or_create_by_email(
-      hash['info']['email'],
-      {
-        name: hash['info']['name'], 
-        email: hash['info']['email'], 
-        nickname: hash["info"]["nickname"],
-        bio: (hash["info"]["description"][0..139] rescue nil),
-        locale: I18n.locale.to_s,
-        image_url: "https://graph.facebook.com/#{hash['uid']}/picture?type=large" 
-      }
+    create!(
+        {
+            name: hash['info']['name'],
+            email: hash['info']['email'],
+            nickname: hash["info"]["nickname"],
+            bio: (hash["info"]["description"][0..139] rescue nil),
+            locale: I18n.locale.to_s,
+            image_url: "https://graph.facebook.com/#{hash['uid']}/picture?type=large"
+        }
     )
   end
 

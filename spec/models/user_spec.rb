@@ -167,30 +167,20 @@ describe User do
 
   describe ".create_from_hash" do
     let(:auth)  do {
-      'provider' => "facebook",
-      'uid' => "foobar",
-      'info' => {
-        'name' => "Foo bar",
-        'email' => 'another_email@anotherdomain.com',
-        'nickname' => "foobar",
-        'description' => "Foo bar's bio".ljust(200),
-        'image' => "image.png"
-      }
+        'provider' => "facebook",
+        'uid' => "foobar",
+        'info' => {
+            'name' => "Foo bar",
+            'email' => 'another_email@anotherdomain.com',
+            'nickname' => "foobar",
+            'description' => "Foo bar's bio".ljust(200),
+            'image' => "image.png"
+        }
     }
     end
     subject{ User.create_from_hash(auth) }
-    context "when user is really new" do
-      it{ should be_persisted }
-      its(:email){ should == auth['info']['email'] }
-    end
-
-    context "when user with the same email exists" do
-      before do
-        create(:user, email: auth['info']['email'])
-      end
-      it{ should be_persisted }
-      its(:email){ should == auth['info']['email'] }
-    end
+    it{ should be_persisted }
+    its(:email){ should == auth['info']['email'] }
   end
 
   describe ".create" do
