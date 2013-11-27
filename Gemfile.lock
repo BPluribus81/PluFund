@@ -199,6 +199,7 @@ GEM
       rack (>= 1.4.5)
     high_voltage (2.0.0)
     hike (1.2.3)
+    hirb (0.7.1)
     htmlentities (4.3.1)
     http_accept_language (2.0.0)
     httparty (0.6.1)
@@ -499,6 +500,7 @@ DEPENDENCIES
   has_scope (~> 0.6.0.rc)
   heroku-deflater (>= 0.4.1)
   high_voltage
+  hirb
   http_accept_language
   httparty (~> 0.6.1)
   httpclient (>= 2.2.5)
