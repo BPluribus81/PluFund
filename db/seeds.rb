@@ -52,7 +52,7 @@ puts 'Seeding the database...'
   email_system: 'system@pluribusfund.com',
   email_no_reply: 'no-reply@pluribusfund.com',
   facebook_url: "http://facebook.com/pluribusfund",
-  facebook_app_id: '173747042661491',
+  facebook_app_id: '253265074820551',
   twitter_url: 'http://twitter.com/pluribusfund',
   twitter_username: "pluribusfund",
   mailchimp_url: "http://catarse.us5.list-manage.com/subscribe/post?u=ebfcd0d16dbb0001a0bea3639&amp;id=149c39709e",
@@ -85,8 +85,8 @@ end
 
 
 OauthProvider.find_or_create_by!(name: 'facebook') do |o|
-  o.key = 'your_facebook_app_key'
-  o.secret = 'your_facebook_app_secret'
+  o.key = '253265074820551'
+  o.secret = 'd78913e2d408a56c1d79b71d5b0ee813'
   o.path = 'facebook'
 end
 
