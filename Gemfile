@@ -134,7 +134,7 @@ group :test do
   gem 'poltergeist'
   gem 'launchy'
   gem 'database_cleaner'
-  gem 'shoulda'
+  gem 'shoulda', :require => false
   gem 'factory_girl_rails'
   gem 'capybara',   '~> 2.1.0'
   gem 'jasmine'
