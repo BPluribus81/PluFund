@@ -1,58 +1,57 @@
-/TODO Translate
 - user = @notification.user
 - project = @notification.project
 
 - project_link = project_by_slug_url(permalink: project.permalink)
 - company_name = ::Configuration[:company_name]
 
-|Olá, #{user.display_name}.
+|Hello, #{user.display_name}.
 br/
 br/
-| O projeto #{link_to project.name, project_link, target: '__blank'} está no ar e já pode receber apoios! Boa sorte nessa maratona! 
-| Uma campanha de financiamento coletivo dá trabalho, mas é recompensador! Se não planejou suas ações anteriormente, não perca tempo. 
-| A hora é essa! Agora é #{ link_to 'TUDO-OU-NADA!', 'http://suporte.catarse.me/knowledgebase/articles/153519-por-que-o-tudo-ou-nada-', target: '__blank'} 
+| The project #{link_to project.name, project_link, target: '__blank'} is now live and can receive support! Good luck in this marathon! 
+| A crowdfunding campaign takes work, but it is rewarding! If you have not planned your actions before, now is the time. 
+| The time is now! Now is  #{ link_to 'TUDO-OU-NADA!', 'http://suporte.catarse.me/knowledgebase/articles/153519-por-que-o-tudo-ou-nada-', target: '__blank'} 
 br/
 br/
-| Para conversar sobre estratégias de comunicação com nossa equipe e receber sugestões sobre como agir na sua campanha, 
-| responda esse email ou envie uma mensagem para #{mail_to ::Configuration[:email_projects]} . 
-| Mas, lembre-se que <strong>você é o responsável por promover a campanha e cuidar da divulgação do projeto</strong>. É da sua rede que virão grande parte dos apoios, esta conversa deve ser encarada como um auxílio.
+| To discuss communication strategies with our team and receive suggestions on what to do during this campaign, 
+| respond to this email or send a message to #{mail_to ::Configuration[:email_projects]} . 
+| But remember that <strong>you are responsible for promoting the campaign and disseminating information about the project</strong>. It is your network that will provide most of your success, much of this converation should bee seen as an aid.
 br/
 br/
-strong Informações Importantes:
+strong Important Information:
 br/
 br/
-| Você <strong>NÃO</strong> pode mais <strong>alterar</strong> nem a <strong>Meta de Arrecadação</strong> nem o <strong>Prazo escolhido</strong> para a campanha. 
+| You <strong>CANNOT</strong> <strong>CHANGE</strong> the <strong>Target Collection</strong> or <strong>Chosen Term</strong> for the campaign. 
 br/
 br/
-| No entanto você ainda pode:
+| However you still can:
 br/
-| - Trocar o vídeo principal da sua campanha
+| - Changing the primary display of your campaignn
 br/
-| - Editar a descrição do seu projeto
+| - Edit the description of your project
 br/
-| - Criar novas recompensas
+| - Create new rewards
 br/
-| - Alterar conteúdo e valor de recompensas que ninguém escolheu
+| - Changing content and value of rewards that no one chose
 br/
-| - Alterar o limite de apoiadores de uma determinada recompensa
+| - Set the limit of supporters of a particular reward
 br/
-| - Esgotar recompensas (limitando-as para um numero X de apoiadores)
+| - Exhaust rewards (limiting them to X number of supporters)
 br/
-| - Trocar o Thumbnail e a Frase de Efeito do seu projeto
+| - Change the Thumbnail and Headline of your project
 br/
-| - Estudar regras, dicas e outras informações através da #{link_to 'Central de Suporte', ::Configuration[:support_forum]}.
-br/
-br/
-| <strong>Se você não conferiu a #{link_to 'Central de Suporte', ::Configuration[:support_forum], target: '__blank'}, 
-| confira! Quanto mais você souber sobre os detalhes de uma campanha no #{company_name}, melhor preparado você estará.</strong> 
-| E fique traquilo, estamos por aqui! Você pode tirar dúvidas conosco respondendo diretamente este email ou através do #{mail_to Configuration[:email_projects]}
+| - Read the rules, tips and other information through the #{link_to 'Support Center', ::Configuration[:support_forum]}.
 br/
 br/
-| E por falar nisso, por favor </strong>não esqueça de incluir na sua lista de contatos os e-mails:</strong> 
-| #{mail_to ::Configuration[:email_projects]} e #{mail_to ::Configuration[:email_contact]} para evitar que nossas mensagens 
-| caiam na sua caixa de spam devido a filtros do seu email. 
+| <strong>If you have not checked the #{link_to 'Support Center', ::Configuration[:support_forum], target: '__blank'}, 
+| check it out! The more you know about the details of a campaign for #{company_name}, the better prepared you will be.</strong> 
+| And stay calm, we are here to assist! You can ask us questions directly through this email or via the #{mail_to Configuration[:email_projects]}
 br/
 br/
-| Um abraço,
+| And by the way, please </strong>do not forget to inclide in your list of contacts emails:</strong> 
+| #{mail_to ::Configuration[:email_projects]} and #{mail_to ::Configuration[:email_contact]} to prevent our messages from  
+| falling in your spam filters because of your email.
 br/
-| A equipe do #{company_name} te deseja uma boa campanha!!!!
+br/
+| Thanks,
+br/
+| The #{company_name} team wishes you a great new year!!!
