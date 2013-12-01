@@ -46,5 +46,14 @@ test:
   username: postgres
   password: postgres
 
+production:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: Pluribus_Fund_Dev
+  pool: 5
+  username: postgres
+  password: postgres
+
 
 

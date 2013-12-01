@@ -23,6 +23,7 @@ gem 'paper_trail', '>= 3.0.0.rc2'
 gem 'pg'
 gem 'postgres-copy'
 gem 'pg_search'
+gem 'postgres_ext'
 
 gem 'schema_plus'
 gem 'schema_associations'
