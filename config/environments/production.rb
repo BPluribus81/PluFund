@@ -73,7 +73,7 @@ Catarse::Application.configure do
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found).
-  I18n.default_locale = :pt
+  I18n.default_locale = :en
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners.
@@ -90,4 +90,6 @@ Catarse::Application.configure do
   }
 
   config.action_mailer.asset_host = ::Configuration[:base_url]
+
+  ActiveMerchant::Billing::PaypalExpressGateway.default_currency = 'USD'
 end

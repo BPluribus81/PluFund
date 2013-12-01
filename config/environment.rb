@@ -11,3 +11,5 @@ if ENV['RAILS_ENV=development']
   require 'hirb'
   Hirb.enable
 end
+
+ActiveMerchant::Billing::PaypalExpressGateway.default_currency = 'USD'
