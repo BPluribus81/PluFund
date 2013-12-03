@@ -3,18 +3,18 @@ br
 - if can? :update, @project
   #project_warning.bootstrap-alert
     .alert.alert-warning
-      i Bem-vindo ao Rascunho!
+      i Create your project draft!
       #toggle_warning
         = link_to '(minimizar informações)', '#'
       #project_warning_text
         br/
         br/
-        | Para editar a página do seu projeto procure abaixo pela <strong>aba de EDIÇÃO</strong>, realize todas as alterações no formulário e clique em <strong>ATUALIZAR INFORMAÇÕES</strong>.
+        | To edit the page of your project look under the tab <strong>EDIT</strong>, perform all changes in the form and click <strong>UPDATE INFORMATION</strong>.
         br/
-        | As recompensas podem ser adicionadas diretamente na coluna onde ficam expostas, para isso basta clicar em <strong>ADICIONAR RECOMPENSA</strong>. 
+        | Rewards can be added directly into the column where they are exposed to it by clicking on <strong>ADD REWARD</strong>.
         br/
         br/
-        strong Importante!
+        strong Important!
         br/
         | Seu projeto só será avaliado pela nossa equipe quando você clicar no botão <strong>ENVIAR PROJETO</strong>. Iremos analisar a consistência do seu projeto apenas com base nas informações presentes no seu rascunho, 
         | por isso seja bastante claro e objetivo na construção desta página. O <strong>vídeo</strong> não é obrigatório para a avaliação, apenas para o projeto ir ao ar. 
@@ -32,7 +32,7 @@ br
 - else
   #project_warning.bootstrap-alert
     .alert.alert-warning
-      i Atenção! Este projeto ainda está em rascunho.
+      i Attention! This project is still in draft.
       #toggle_warning
         = link_to '(minimizar informações)', '#'
       #project_warning_text

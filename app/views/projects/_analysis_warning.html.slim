@@ -3,7 +3,7 @@ br
 - if can? :update, @project
   #project_warning.bootstrap-alert
     .alert.alert-warning
-      i Seu projeto está em análise.
+      i Your project is under review.
       #toggle_warning
         = link_to '(minimizar informações)', '#'
       #project_warning_text
@@ -20,7 +20,7 @@ br
 - else
   #project_warning.bootstrap-alert
     .alert.alert-warning
-      i Atenção! Este projeto ainda não está no ar! O Realizador responsável está fazendo ajustes! 
+      i The project is not yet live! The project creator is responsible for making adjustments.
       #toggle_warning
         = link_to '(minimizar informações)', '#'
       #project_warning_text

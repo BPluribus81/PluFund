@@ -2,7 +2,7 @@
 .bootstrap-twitter
   .alert.alert-info
     p
-      = "Para saber tudo sobre como estruturar o seu projeto, baixe o #{link_to 'Guia Completo', "#{Configuration[:base_url]}/guia_realizadores.pdf", target: '_blank'}".html_safe
+      = "To learn all about how to structure your project, download the#{link_to 'Complete Guide', "#{Configuration[:base_url]}/#", target: '_blank'}".html_safe
 .bootstrap-form
   = semantic_form_for @project do |form|
     = form.inputs do
