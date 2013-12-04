@@ -68,7 +68,7 @@ Vagrant::Config.run do |config|
     chef.json = {
       # Installing The latest ruby version
       rvm: {
-        default_ruby: 'ruby-1.9.3-p392',
+        default_ruby: 'ruby-2.0.0',
         
         # Installing multiple ruby versions
         rubies: ['2.0.0-p0'],
