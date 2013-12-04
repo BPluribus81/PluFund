@@ -1,10 +1,10 @@
 # coding: utf-8
-require 'rails_autolink'
 class Reward < ActiveRecord::Base
   include RankedModel
 
   include ERB::Util
   schema_associations
+  has_many :backers, dependent: :nullify
 
   ranks :row_order, with_same: :project_id
   has_paper_trail

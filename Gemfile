@@ -37,7 +37,7 @@ gem 'catarse_moip', '~> 2.0.8'
 gem 'draper'
 
 # Frontend stuff
-gem 'slim-rails', '~> 1.1.1'
+gem 'slim-rails'
 gem 'jquery-rails'
 gem 'browser'
 
@@ -64,8 +64,7 @@ gem 'simple_form'
 gem "auto_html",    '= 1.4.2'
 gem "RedCloth"
 gem 'kaminari'
-#TODO: Take a look on dependencies. Why not auto_html?
-gem 'rails_autolink', '~> 1.1.0'
+
 
 # Uploads
 gem 'carrierwave', '~> 0.8.0'

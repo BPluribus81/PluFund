@@ -42,7 +42,8 @@ div class=(can?(:manage, parent) ? 'project_land' : 'small_project_land')
         li.date
           h5
             span #{t(".#{backer.state}")}
-            span.date  (#{backer.display_confirmed_at || I18n.l(backer.created_at.to_date)})
+            span.date< 
+              |(#{backer.display_confirmed_at || I18n.l(backer.created_at.to_date)})
         - if backer.display_value
           li.value
             h5= backer.display_value
@@ -57,4 +58,3 @@ div class=(can?(:manage, parent) ? 'project_land' : 'small_project_land')
         li= link_to image_tag('catarse/facebook_black_icon.png'), "http://www.facebook.com/sharer.php?u=<%= encodeURIComponent(project['full_uri']) %>&t=#{t('share_my_backs')}<%= encodeURIComponent(project['name']) %>".html_safe, target: '_blank'
         li= link_to image_tag('catarse/twitter_black_icon.png'), "http://twitter.com/share?text=#{t('share_my_backs')}<%= encodeURIComponent(project['name']) %>&url=<%= encodeURIComponent(project['full_uri']) %>".html_safe, target: '_blank'
 .clearfix
-
