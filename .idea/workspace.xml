@@ -7,8 +7,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/catarse-master.iml" afterPath="$PROJECT_DIR$/.idea/catarse-master.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds/my-seeds-local.example.rb" afterPath="$PROJECT_DIR$/db/seeds/my-seeds-local.example.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/schema_associations.rb" afterPath="$PROJECT_DIR$/config/initializers/schema_associations.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="af6bb044-cb8f-43e8-bacf-53487fcf562f" name="Failed commit: Default" comment=" fix video thumbnail in case the user deletes the video" />
@@ -51,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="24" selection-start="659" selection-end="659" vertical-scroll-proportion="0.29181084" vertical-offset="197" max-vertical-offset="2898">
+            <state line="89" column="95" selection-start="2256" selection-end="2256" vertical-scroll-proportion="-28.2" vertical-offset="756" max-vertical-offset="2898">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema_associations.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="schema_associations.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/schema_associations.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="0" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+            <state line="3" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.06020067" vertical-offset="0" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
@@ -190,8 +189,8 @@
         <option value="$PROJECT_DIR$/cookbooks/rvm/README.md" />
         <option value="$PROJECT_DIR$/cookbooks/rvm/.travis.yml" />
         <option value="$PROJECT_DIR$/db/seeds/my-seeds-local.example.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/schema_associations.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/initializers/schema_associations.rb" />
       </list>
     </option>
   </component>
@@ -721,7 +720,11 @@
       <created>1386123871130</created>
       <updated>1386123871130</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Schema test&#10;">
+      <created>1386124114322</created>
+      <updated>1386124114322</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -759,7 +762,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29945055" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29945055" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -803,7 +806,8 @@
     <MESSAGE value="Fixing Codeship errors" />
     <MESSAGE value="Fixing Codeship errors&#10;" />
     <MESSAGE value="Schema test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Schema test" />
+    <MESSAGE value="Schema test&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Schema test&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1139,16 +1143,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/schema_associations.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="0" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+        <state line="89" column="95" selection-start="2256" selection-end="2256" vertical-scroll-proportion="-28.2" vertical-offset="756" max-vertical-offset="2898">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/initializers/schema_associations.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="659" selection-end="659" vertical-scroll-proportion="0.29181084" vertical-offset="197" max-vertical-offset="2898">
+        <state line="3" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.06020067" vertical-offset="0" max-vertical-offset="897">
           <folding />
         </state>
       </provider>
