@@ -26,7 +26,7 @@ gem 'pg_search'
 gem 'postgres_ext'
 
 gem 'schema_plus'
-gem 'schema_associations'
+#gem 'schema_associations'
 gem 'chartkick'
 
 # Payment engines

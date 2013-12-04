@@ -31,7 +31,7 @@ puts "Creating Configuration entries..."
   base_domain: 'YOUR_DOMAIN',
   base_url: "YOUR_BASE_URL",
 
-  facebook_url: "http://facebook.com/MY-FACEBOOK-PAGE",
+  facebook_url: "http://facebook.com/pluribusfund",
   facebook_app_id: '556758001037275',
   uservoice_subdomain: 'MY-USER-VOICE.uservoice.com',                  
   uservoice_sso_key: 'MY-USER-VOICE-KEY',                         
