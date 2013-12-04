@@ -72,7 +72,8 @@ puts 'Seeding the database...'
   contato_url: 'http://support.pluribusfund.com/',
   aws_access_key: 'AKIAJFWWMSLZZLXTZABQ',
   aws_secret_key: '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',
-  aws_bucket: 'Pluribus'
+  aws_bucket: 'Pluribus',
+  mailchimp_api_key: '9bd49c4325ea5c08be6207cc69fbddba-us3'
 
 }.each do |name, value|
    conf = Configuration.find_or_initialize_by(name: name)

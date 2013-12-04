@@ -24,9 +24,6 @@ Catarse::Application.routes.draw do
     mount Sidekiq::Web => '/sidekiq'
   end
 
-  mount CatarsePaypalExpress::Engine => "/", as: :catarse_paypal_express
-  mount CatarseMoip::Engine => "/", as: :catarse_moip
-
   # Channels
   constraints subdomain: /^(?!enigmatic-peak-7191)(\w+)/ do
     namespace :channels, path: '' do
