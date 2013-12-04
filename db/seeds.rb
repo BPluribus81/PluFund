@@ -69,7 +69,11 @@ puts 'Seeding the database...'
   instagram_url: 'http://instagram.com/catarse_',
   blog_url: "http://blog.pluribusfund.com",
   github_url: 'http://github.com/BPluribus81',
-  contato_url: 'http://support.pluribusfund.com/'
+  contato_url: 'http://support.pluribusfund.com/',
+  aws_access_key: 'AKIAJFWWMSLZZLXTZABQ',
+  aws_secret_key: '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',
+  aws_bucket: 'Pluribus'
+
 }.each do |name, value|
    conf = Configuration.find_or_initialize_by(name: name)
    conf.update_attributes({
