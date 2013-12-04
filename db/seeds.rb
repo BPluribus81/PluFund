@@ -43,7 +43,7 @@ puts 'Seeding the database...'
 {
   company_name: 'Pluribus Fund',
   company_logo: 'https://www.dropbox.com/s/m10p9cen53ie7fb/logothumb.png',
-  host: 'pluribusfund.com',
+  host: '/',
   base_url: "http://pluribusfund.com",
 
   email_contact: 'contact@pluribusfund.com',
@@ -55,10 +55,10 @@ puts 'Seeding the database...'
   facebook_app_id: '253265074820551',
   twitter_url: 'http://twitter.com/pluribusfund',
   twitter_username: "pluribusfund",
-  mailchimp_url: "http://catarse.us5.list-manage.com/subscribe/post?u=ebfcd0d16dbb0001a0bea3639&amp;id=149c39709e",
+  mailchimp_url: "https://us3.api.mailchimp.com/2.0/",
   catarse_fee: '0.05',
   support_forum: 'http://support.pluribusfund.com/',
-  base_domain: 'pluribusfund.com',
+  base_domain: 'http://pluribusfund.com',
   uservoice_secret_gadget: 'change_this',
   uservoice_key: 'uservoice_key',
   faq_url: 'http://suporte.catarse.me/',

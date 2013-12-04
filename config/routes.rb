@@ -28,7 +28,7 @@ Catarse::Application.routes.draw do
   mount CatarseMoip::Engine => "/", as: :catarse_moip
 
   # Channels
-  constraints subdomain: /^(?!www|secure|test|local)(\w+)/ do
+  constraints subdomain: /^(?!enigmatic-peak-7191)(\w+)/ do
     namespace :channels, path: '' do
       namespace :admin do
         namespace :reports do

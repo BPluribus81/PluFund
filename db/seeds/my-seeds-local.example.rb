@@ -28,7 +28,7 @@ puts "Creating Configuration entries..."
   company_name: 'Pluribus Fund',
 
   host: 'YOUR_HOST',
-  base_domain: 'YOUR_DOMAIN',
+  base_domain: 'pluribusfund.com',
   base_url: "YOUR_BASE_URL",
 
   facebook_url: "http://facebook.com/pluribusfund",
@@ -38,10 +38,10 @@ puts "Creating Configuration entries..."
   uservoice_secret_gadget: 'MY-USER-VOICE-SECRET', 
   sendgrid_user_name: 'MY-HEROKU-SENDGRID-APP@heroku.com',                        
   sendgrid: 'MY-HEROKU-SENDGRID-KEY',                                                 
-  mailchimp_url: "YOUR_MAIL_CHIMP_URL",
+  mailchimp_url: "https://us3.api.mailchimp.com/2.0/",
 
   blog_url: "YOUR_BLOG_URL",
-  twitter_username: "YOUR_TWITTER",
+  twitter_username: "PluribusFund",
   email_contact: 'EMAIL_ACCOUNT',
   email_payments: 'EMAIL_ACCOUNT',
   email_projects: 'EMAIL_ACCOUNT',
