@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/refund_request.text.slim" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mailers/credits_mailer.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/credits_mailer/request_refund_from.text.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/projects_mailer/start_project_email.html.slim" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbooks/rvm" afterPath="$PROJECT_DIR$/cookbooks/rvm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/observers/backer_observer.rb" afterPath="$PROJECT_DIR$/app/observers/backer_observer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/catarse-master.iml" afterPath="$PROJECT_DIR$/.idea/catarse-master.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/decorators/project_decorator.rb" afterPath="$PROJECT_DIR$/app/decorators/project_decorator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt.yml" afterPath="$PROJECT_DIR$/config/locales/pt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="" />
     <list id="af6bb044-cb8f-43e8-bacf-53487fcf562f" name="Failed commit: Default" comment=" fix video thumbnail in case the user deletes the video" />
     <ignored path="catarse-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -856,7 +844,11 @@
       <created>1386359119513</created>
       <updated>1386359119513</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Cherry picks">
+      <created>1386362915379</created>
+      <updated>1386362915379</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -881,7 +873,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="664" y="25" width="1255" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -889,7 +881,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3104549" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3104549" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -916,7 +908,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Gemfile and logo update" />
     <MESSAGE value="Language and routes update" />
     <MESSAGE value="Fixed  back and project abilities" />
     <MESSAGE value="More translations and set TODO's for translations in views" />
@@ -941,7 +932,8 @@
     <MESSAGE value="Cherry picks from master&#10;" />
     <MESSAGE value="&#10;" />
     <MESSAGE value="Cherry picks&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cherry picks&#10;" />
+    <MESSAGE value="Cherry picks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cherry picks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
