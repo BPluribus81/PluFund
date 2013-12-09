@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/grid/_debug.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_footer.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_header.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_newsletter.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/pages/how_it_works.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/refund_request.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_footer_channel.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_footer_channel.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_footers.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_footers.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_headers.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_headers.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/43D/CD0/blog_posts" afterPath="$PROJECT_DIR$/tmp/cache/43D/CD0/blog_posts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/catarse-master.iml" afterPath="$PROJECT_DIR$/.idea/catarse-master.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/catarse.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/catarse.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/catarse_bootstrap/layouts/catarse_bootstrap.html.slim" afterPath="$PROJECT_DIR$/app/views/catarse_bootstrap/layouts/catarse_bootstrap.html.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/decorators/project_decorator.rb" afterPath="$PROJECT_DIR$/app/decorators/project_decorator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/decorators/project_decorator_spec.rb" afterPath="$PROJECT_DIR$/spec/decorators/project_decorator_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/project_spec.rb" afterPath="$PROJECT_DIR$/spec/models/project_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="af6bb044-cb8f-43e8-bacf-53487fcf562f" name="Failed commit: Default" comment=" fix video thumbnail in case the user deletes the video" />
@@ -48,24 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="221" column="23" selection-start="0" selection-end="52290" vertical-scroll-proportion="0.0" vertical-offset="3978" max-vertical-offset="16722">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="259" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1170">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="reward_decorator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/decorators/reward_decorator.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,43 +38,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="how_it_works.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/pages/how_it_works.html.slim">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.html.slim" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_footer.html.slim" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="26" selection-start="6541" selection-end="6541" vertical-scroll-proportion="0.0" vertical-offset="2619" max-vertical-offset="3582">
+            <state line="15" column="5" selection-start="887" selection-end="887" vertical-scroll-proportion="0.2710911" vertical-offset="29" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_decorator_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/decorators/project_decorator_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="41" selection-start="5333" selection-end="5333" vertical-scroll-proportion="0.0" vertical-offset="2925" max-vertical-offset="3888">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="484" column="47" selection-start="14557" selection-end="14557" vertical-scroll-proportion="0.0" vertical-offset="8649" max-vertical-offset="9612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg_rewards.jpg" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bg_rewards.jpg" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/images/catarse/bg_rewards.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -130,7 +66,7 @@
       <file leaf-file-name="_header.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
+            <state line="8" column="27" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="954">
               <folding />
             </state>
           </provider>
@@ -139,16 +75,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="26" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.154047" vertical-offset="836" max-vertical-offset="2646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.slim">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="50" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="3474">
+            <state line="53" column="26" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="836" max-vertical-offset="2646">
               <folding />
             </state>
           </provider>
@@ -205,16 +132,16 @@
         <option value="$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_header.html.slim" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.slim" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" />
         <option value="$PROJECT_DIR$/spec/decorators/project_decorator_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/project_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="778" />
+    <option name="x" value="960" />
     <option name="y" value="24" />
-    <option name="width" value="1142" />
+    <option name="width" value="952" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -243,6 +170,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,10 +203,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarse-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PluFund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -642,7 +623,11 @@
       <created>1386362915379</created>
       <updated>1386362915379</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Cherry picks">
+      <created>1386550491172</created>
+      <updated>1386550491172</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -666,7 +651,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="778" y="24" width="1142" height="1056" extended-state="4" />
+    <frame x="960" y="24" width="952" height="1056" extended-state="4" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -674,7 +659,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35350877" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4168421" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -682,12 +667,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33088234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -735,16 +720,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/decorators/backer_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="13" column="20" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -756,9 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="259" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="9" column="19" selection-start="259" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/decorators/reward_decorator.rb">
@@ -770,9 +749,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="37" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="972">
-          <folding />
-        </state>
+        <state line="48" column="37" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.slim">
@@ -798,16 +775,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/decorators/backer_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="13" column="20" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -819,9 +792,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="259" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="9" column="19" selection-start="259" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/decorators/reward_decorator.rb">
@@ -833,9 +804,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="37" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="972">
-          <folding />
-        </state>
+        <state line="48" column="37" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.slim">
@@ -881,9 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -895,9 +862,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="259" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="9" column="19" selection-start="259" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
@@ -916,37 +881,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/decorators/backer_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="13" column="20" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="428" selection-end="429" vertical-scroll-proportion="-3.5925925" vertical-offset="83" max-vertical-offset="972">
-          <folding />
-        </state>
+        <state line="10" column="27" selection-start="428" selection-end="429" vertical-scroll-proportion="-3.5925925" vertical-offset="83" max-vertical-offset="972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/observers/backer_observer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
-          <folding />
-        </state>
+        <state line="42" column="21" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/refund_request.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="4" column="41" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/notifications_mailer/subjects/refund_request.text.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839">
-          <folding />
-        </state>
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/catarse/bg_air.jpg">
@@ -956,23 +911,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/catarse.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
+        <state line="6" column="40" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_footers.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
+        <state line="7" column="34" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_headers.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="37" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1692">
-          <folding />
-        </state>
+        <state line="42" column="37" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1692" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/pages/how_it_works.html.slim">
@@ -984,30 +933,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_footer.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="125" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
-          <folding />
-        </state>
+        <state line="2" column="125" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_footer_channel.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <folding />
-        </state>
+        <state line="2" column="36" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/shared/_header.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="26" selection-start="6541" selection-end="6541" vertical-scroll-proportion="0.0" vertical-offset="2619" max-vertical-offset="3582">
-          <folding />
-        </state>
+        <state line="5" column="20" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.slim">
@@ -1019,44 +955,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.154047" vertical-offset="836" max-vertical-offset="2646">
+        <state line="53" column="26" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="836" max-vertical-offset="2646">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/decorators/project_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="461" selection-end="461" vertical-scroll-proportion="0.09033079" vertical-offset="217" max-vertical-offset="2052">
-          <folding />
-        </state>
+        <state line="16" column="42" selection-start="461" selection-end="461" vertical-scroll-proportion="0.09033079" vertical-offset="217" max-vertical-offset="2052" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/pages/channels/profiles/new.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="46" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="905" max-vertical-offset="1818">
-          <folding />
-        </state>
+        <state line="60" column="46" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="905" max-vertical-offset="1818" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/_newsletter.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding />
-        </state>
+        <state line="3" column="31" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/catarse_bootstrap/grid/_debug.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="0" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="7" column="43" selection-start="0" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/catarse_bootstrap/layouts/catarse_bootstrap.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <folding />
-        </state>
+        <state line="10" column="38" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/decorators/project_decorator_spec.rb">
@@ -1076,6 +1002,13 @@
     <entry file="file://$PROJECT_DIR$/app/assets/images/catarse/bg_rewards.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="887" selection-end="887" vertical-scroll-proportion="0.2710911" vertical-offset="29" max-vertical-offset="918">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
