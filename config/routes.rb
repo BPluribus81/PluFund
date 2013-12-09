@@ -3,8 +3,8 @@ require 'sidekiq/web'
 Catarse::Application.routes.draw do
 
   devise_for :users, path: '',
-    path_names:   { sign_in: :login, sign_out: :logout, sign_up: :sign_up },
-    controllers:  { omniauth_callbacks: :omniauth_callbacks, passwords: :passwords }
+             path_names:   { sign_in: :login, sign_out: :logout, sign_up: :sign_up },
+             controllers:  { omniauth_callbacks: :omniauth_callbacks, passwords: :passwords }
 
 
   devise_scope :user do
@@ -24,8 +24,11 @@ Catarse::Application.routes.draw do
     mount Sidekiq::Web => '/sidekiq'
   end
 
+  mount CatarsePaypalExpress::Engine => "/", as: :catarse_paypal_express
+  mount CatarseMoip::Engine => "/", as: :catarse_moip
+
   # Channels
-  constraints subdomain: /^(?!enigmatic-peak-7191)(\w+)/ do
+  constraints subdomain: /^(?!www|secure|test|local)(\w+)/ do
     namespace :channels, path: '' do
       namespace :admin do
         namespace :reports do
@@ -55,13 +58,6 @@ Catarse::Application.routes.draw do
 
   # Root path should be after channel constraints
   root to: 'projects#index'
-
-  # Static Pages
-  get '/guidelines',            to: 'static#guidelines',          as: :guidelines
-  get "/guidelines_tips",       to: "static#guidelines_tips",     as: :guidelines_tips
-  get "/guidelines_backers",    to: "static#guidelines_backers",  as: :guidelines_backers
-  get "/guidelines_start",      to: "static#guidelines_start",    as: :guidelines_start
-
 
   get "/explore" => "explore#index", as: :explore
 

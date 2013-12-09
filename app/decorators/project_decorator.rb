@@ -63,46 +63,46 @@ class ProjectDecorator < Draper::Decorator
   def progress_bar
     width = source.progress > 100 ? 100 : source.progress
     content_tag(:div, id: :progress_wrapper) do
-    content_tag(:div, nil, id: :progress, style: "width: #{width}%")
-  end
-end
-
-
-def successful_flag
-  return nil unless source.successful?
-
-  content_tag(:div, class: [:successful_flag]) do
-  image_tag("channels/successful.png")
+      content_tag(:div, nil, id: :progress, style: "width: #{width}%")
+    end
   end
 
-end
 
-private
+  def successful_flag
+    return nil unless source.successful?
 
-def use_uploaded_image(version)
-  source.uploaded_image.send(version).url if source.uploaded_image.present?
-end
+    content_tag(:div, class: [:successful_flag]) do
+      image_tag("channels/successful.png")
+    end
 
-def use_video_tumbnail(version)
-  if source.video_thumbnail.url.present?
-    source.video_thumbnail.send(version).url
-  elsif source.video
-    source.video.thumbnail_large
   end
-rescue
-  nil
-end
 
-def time_to_go_for(unit)
-  time = 1.send(unit)
+  private
 
-  if source.expires_at.to_i >= time.from_now.to_i
-    time = ((source.expires_at - Time.zone.now).abs / time).round
-    time_and_unit_attributes time, unit
+  def use_uploaded_image(version)
+    source.uploaded_image.send(version).url if source.uploaded_image.present?
   end
-end
 
-def time_and_unit_attributes(time, unit)
-  { time: time, unit: pluralize_without_number(time, I18n.t("datetime.prompts.#{unit}").downcase) }
-end
+  def use_video_tumbnail(version)
+    if source.video_thumbnail.url.present?
+      source.video_thumbnail.send(version).url
+    elsif source.video
+      source.video.thumbnail_large
+    end
+  rescue
+    nil
+  end
+
+  def time_to_go_for(unit)
+    time = 1.send(unit)
+
+    if source.expires_at.to_i >= time.from_now.to_i
+      time = ((source.expires_at - Time.zone.now).abs / time).round
+      time_and_unit_attributes time, unit
+    end
+  end
+
+  def time_and_unit_attributes(time, unit)
+    { time: time, unit: pluralize_without_number(time, I18n.t("datetime.prompts.#{unit}").downcase) }
+  end
 end
