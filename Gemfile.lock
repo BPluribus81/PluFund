@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/bernat/best_in_place.git
+  remote: https://github.com/bernat/best_in_place.git
   revision: 366413be357d65cdf47031e928aea969f72e3659
   branch: rails-4
   specs:
@@ -8,7 +8,7 @@ GIT
       rails (~> 4)
 
 GIT
-  remote: git://github.com/catarse/catarse_mailchimp
+  remote: https://github.com/catarse/catarse_mailchimp.git
   revision: 2ed4f3931dfa292e5c1c62619772f04e41c68629
   ref: 2ed4f39
   specs:
@@ -17,7 +17,7 @@ GIT
       supermodel
 
 GIT
-  remote: git://github.com/catarse/moip-ruby.git
+  remote: https://github.com/catarse/moip-ruby.git
   revision: 39f9dab38fc33fe9bf614deb8e90ca166ab2d6bf
   specs:
     moip (1.0.2)
@@ -26,7 +26,7 @@ GIT
       nokogiri (~> 1.5.0)
 
 GIT
-  remote: git://github.com/ryanb/cancan.git
+  remote: https://github.com/ryanb/cancan.git
   revision: f1cebde51a87be149b4970a3287826bb63c0ac0b
   ref: f1cebde51a87be149b4970a3287826bb63c0ac0b
   branch: 2.0

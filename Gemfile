@@ -11,7 +11,7 @@ gem 'sidekiq',  '~> 2.15.2'
 gem 'sinatra', require: false # required by sidekiq web interface mounted on /sidekiq
 
 # Turns every field on a editable one
-gem 'best_in_place', github: 'bernat/best_in_place', branch: 'rails-4'
+gem 'best_in_place', git: 'https://github.com/bernat/best_in_place.git', branch: 'rails-4'
 
 # State machine for attributes on models
 gem 'state_machine', require: 'state_machine/core'
@@ -53,10 +53,10 @@ gem 'ezcrypto'
 
 # See https://github.com/ryanb/cancan/tree/2.0 for help about this
 # In resume: this version of cancan allow checking for authorization on specific fields on the model
-gem 'cancan', github: 'ryanb/cancan', branch: '2.0', ref: 'f1cebde51a87be149b4970a3287826bb63c0ac0b'
+gem 'cancan', git: 'https://github.com/ryanb/cancan.git', branch: '2.0', ref: 'f1cebde51a87be149b4970a3287826bb63c0ac0b'
 
 # Email marketing
-gem 'catarse_mailchimp', git: 'git://github.com/catarse/catarse_mailchimp', ref: '2ed4f39'
+gem 'catarse_mailchimp', git: 'https://github.com/catarse/catarse_mailchimp.git', ref: '2ed4f39'
 
 # HTML manipulation and formatting
 gem 'formtastic',   '~> 2.2.1'
@@ -86,7 +86,7 @@ gem 'http_accept_language'
 gem 'routing-filter', '~> 0.4.0.pre'
 
 # Payment
-gem 'moip', github: 'catarse/moip-ruby'
+gem 'moip', git: 'https://github.com/catarse/moip-ruby.git'
 gem 'httpclient',     '>= 2.2.5'
 
 group :production do
