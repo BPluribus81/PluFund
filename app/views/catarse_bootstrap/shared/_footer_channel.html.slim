@@ -1,4 +1,4 @@
-footer
+.channel_footer
   .row
     .large-12.columns
       nav
@@ -13,4 +13,3 @@ footer
             = mail_to channel.email, t('channels.footer.contact'), title: t('channels.footer.contact'), class: 'standard-link', target: '_blank'
           li.nav-item
             = link_to t('channels.footer.what_is_channel'), Configuration[:about_channel_url], title: t('channels.footer.how_channels_work'), class: 'standard-link', target: '_blank'
-
