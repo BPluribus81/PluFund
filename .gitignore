@@ -1,3 +1,4 @@
+.rvmrc
 .bundle
 db/*.sqlite3
 log/*.log
@@ -22,3 +23,4 @@ Cookbooks
 .vagrant
 .project
 .secret
+.idea
