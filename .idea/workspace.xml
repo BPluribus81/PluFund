@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="" />
+    <list default="true" id="a2f6d5d7-c75d-41c3-bfe8-c380b6cc7a68" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/17ec53e6db90b9e639bd3b6bba9956c2" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/17ec53e6db90b9e639bd3b6bba9956c2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/798bcd9584ce276b6e7b8af8fa919a39" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/798bcd9584ce276b6e7b8af8fa919a39" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/91f6971d29e6b410d181b57ecf913c78" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/91f6971d29e6b410d181b57ecf913c78" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/e1d4a96d7331afdfc0c61fb4c424688f1ed20227/_colors.sassc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/e1d4a96d7331afdfc0c61fb4c424688f1ed20227/_colors.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/e1d4a96d7331afdfc0c61fb4c424688f1ed20227/_links.sassc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/e1d4a96d7331afdfc0c61fb4c424688f1ed20227/_links.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/43D/CD0/blog_posts" afterPath="$PROJECT_DIR$/tmp/cache/43D/CD0/blog_posts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <list id="af6bb044-cb8f-43e8-bacf-53487fcf562f" name="Failed commit: Default" comment=" fix video thumbnail in case the user deletes the video" />
     <ignored path="catarse-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,19 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_project.html.slim" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_project.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="153" selection-start="532" selection-end="532" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="810">
+            <state line="9" column="153" selection-start="532" selection-end="532" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guidelines_backers.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static/guidelines_backers.html.slim">
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="37" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.0" vertical-offset="1135" max-vertical-offset="1800">
+            <state line="13" column="40" selection-start="412" selection-end="412" vertical-scroll-proportion="-0.08584687" vertical-offset="308" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -176,7 +186,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="-954" />
     <option name="y" value="24" />
     <option name="width" value="960" />
     <option name="height" value="1056" />
@@ -752,11 +762,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="24" width="960" height="1056" extended-state="4" />
-    <editor active="false" />
+    <frame x="-954" y="24" width="960" height="1056" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33843017" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33821988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1088,7 +1098,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="153" selection-start="532" selection-end="532" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="810">
+        <state line="9" column="153" selection-start="532" selection-end="532" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="412" selection-end="412" vertical-scroll-proportion="-0.08584687" vertical-offset="308" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
