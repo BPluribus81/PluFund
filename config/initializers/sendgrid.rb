@@ -1,5 +1,5 @@
 begin
-  if Rails.env.production?
+  if Rails.env.production? && ActiveRecord::Base.connection.table_exists?('configurations')
     ActionMailer::Base.smtp_settings = {
     address: 'smtp.sendgrid.net',
     port: '587',
