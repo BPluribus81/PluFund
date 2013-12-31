@@ -2,25 +2,56 @@ require 'spec_helper'
 
 describe TalksToAmazonFps do
 
-  before do
-    @callback_url = 'http://localhost/callback'
-    @id           = 1
-    @amount       = 1
-    @limit        = 2
-    @description  = 'Test'
-    @is_shippable = 'True'
+  context 'beginning a prepayment' do
+    before do
+      @callback_url = 'http://localhost/callback'
+      @id = 1
+      @amount = 1
+      @limit = 2
+      @description = 'Test'
+      @is_shippable = 'True'
+    end
+
+    it 'provides a URL to complete the prepayment' do
+      result = TalksToAmazonFps.new.get_multi_use_pipeline_url(
+          @callback_url,
+          @id,
+          @amount,
+          @limit,
+          @description,
+          @is_shippable
+      )
+      expect(result.include?('amazon.com/cobranded-ui/actions/start')).to be_true
+    end
   end
 
-  it do
-    result = TalksToAmazonFps.get_multi_use_pipeline_url(
-        @callback_url,
-        @id,
-        @amount,
-        @limit,
-        @description,
-        @is_shippable
-    )
-    #raise result.inspect
-    #RuntimeError: "https://authorize.payments-sandbox.amazon.com/cobranded-ui/actions/start?callerKey=AKIAI4TYKGHFGPDKG2HQ&callerReference=1&collectShippingAddress=True&globalAmountLimit=3&paymentReason=Test&pipelineName=MultiUse&returnURL=http%3A%2F%2Flocalhost%2Fcallback&signature=ysqH%2F4RSCpdrDYkd4LUUOWPSGthyKHye6JJmDKsEU%2F4%3D&signatureMethod=HmacSHA256&signatureVersion=2&transactionAmount=1&version=2009-01-09"
+  context 'completing a prepayment' do
+
+    before do
+      @amazon_response = {
+          :callerReference => 'some_id',
+          :tokenID => 'tokenID',
+          :addressLine1 => 'addressLine1',
+          :addressLine2 => 'addressLine2',
+          :city => 'city',
+          :state => 'state',
+          :status => 'status',
+          :zip => 'zip',
+          :phoneNumber => 'phoneNumber',
+          :country => 'country',
+          :expiry => 'expiry' # parseable date
+      }
+    end
+
+    it 'consumes callback values from completed prepayment' do
+      result = TalksToAmazonFps.new.process_pipeline_callback(@amazon_response)
+      expect(result).to eq(:success)
+    end
+
+    it 'consumes callback values from aborted prepayment' do
+      @amazon_response[:status] = TalksToAmazonFps::STATUS_CANCELLED
+      result = TalksToAmazonFps.new.process_pipeline_callback(@amazon_response)
+      expect(result).to eq(:cancelled)
+    end
   end
 end
