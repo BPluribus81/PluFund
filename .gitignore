@@ -24,3 +24,5 @@ Cookbooks
 .project
 .secret
 .idea
+/vendor/cache/amazon_flex_pay-0.10.0.gem
+/vendor/cache/multi_xml-0.5.5.gem
