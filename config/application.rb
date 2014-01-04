@@ -12,6 +12,7 @@ module Catarse
   class Application < Rails::Application
     config.to_prepare do
       Devise::Mailer.layout "email" # email.haml or email.erb
+      Devise::SessionsController.skip_before_filter :verify_authenticity_token
     end
 
     config.paths['app/views'].unshift("#{Rails.root}/app/views/catarse_bootstrap")
