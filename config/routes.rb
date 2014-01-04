@@ -25,7 +25,7 @@ Catarse::Application.routes.draw do
   end
 
   # Channels
-  constraints subdomain: /^(?!enigmatic-peak-7191)(\w+)/ do
+  constraints subdomain: /^(?!www|secure|test|local|enigmatic-peak-7191)(\w+)/ do
     namespace :channels, path: '' do
       namespace :admin do
         namespace :reports do

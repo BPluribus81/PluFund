@@ -28,8 +28,8 @@ puts "Creating Configuration entries..."
   company_name: 'Pluribus Fund',
 
   host: 'YOUR_HOST',
-  base_domain: 'pluribusfund.com',
-  base_url: "YOUR_BASE_URL",
+  base_domain: 'herokuapp.com',
+  base_url: "http://enigmatic-peak-7191.herokuapp.com",
 
   facebook_url: "http://facebook.com/pluribusfund",
   facebook_app_id: '556758001037275',

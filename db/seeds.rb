@@ -44,7 +44,7 @@ puts 'Seeding the database...'
   company_name: 'Pluribus Fund',
   company_logo: 'https://www.dropbox.com/s/m10p9cen53ie7fb/logothumb.png',
   host: '/',
-  base_url: "http://pluribusfund.com",
+  base_url: "http://enigmatic-peak-7191.herokuapp.com",
 
   email_contact: 'contact@pluribusfund.com',
   email_payments: 'finance@pluribusfund.com',
@@ -58,7 +58,7 @@ puts 'Seeding the database...'
   mailchimp_url: "https://us3.api.mailchimp.com/2.0/",
   catarse_fee: '0.05',
   support_forum: 'http://support.pluribusfund.com/',
-  base_domain: 'http://pluribusfund.com',
+  base_domain: 'herokuapp.com',
   uservoice_secret_gadget: 'change_this',
   uservoice_key: 'uservoice_key',
   faq_url: 'http://suporte.catarse.me/',
