@@ -43,7 +43,7 @@ puts 'Seeding the database...'
 {
   company_name: 'Pluribus Fund',
   company_logo: 'https://www.dropbox.com/s/m10p9cen53ie7fb/logothumb.png',
-  host: '/',
+  host: 'http://enigmatic-peak-7191.herokuapp.com',
   base_url: "http://enigmatic-peak-7191.herokuapp.com",
 
   email_contact: 'contact@pluribusfund.com',

@@ -27,7 +27,7 @@ puts "Creating Configuration entries..."
   catarse_fee: '5%',
   company_name: 'Pluribus Fund',
 
-  host: 'YOUR_HOST',
+  host: 'http://enigmatic-peak-7191.herokuapp.com',
   base_domain: 'herokuapp.com',
   base_url: "http://enigmatic-peak-7191.herokuapp.com",
 
