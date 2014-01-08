@@ -49,6 +49,9 @@ gem 'high_voltage'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook', '1.4.0'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-oauth2'
+
 gem 'devise', '~> 3.0.2'
 gem 'ezcrypto'
 
