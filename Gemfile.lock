@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/zquestz/omniauth-google-oauth2.git
+  revision: b62461a8bc239d29c6994ea9bf1648f617860d88
+  specs:
+    omniauth-google-oauth2 (0.2.2)
+      omniauth (~> 1.0)
+      omniauth-oauth2
+
+GIT
   remote: https://github.com/bernat/best_in_place.git
   revision: 366413be357d65cdf47031e928aea969f72e3659
   branch: rails-4
@@ -267,9 +275,6 @@ GEM
       rack
     omniauth-facebook (1.4.0)
       omniauth-oauth2 (~> 1.0.2)
-    omniauth-google-oauth2 (0.2.2)
-      omniauth (~> 1.0)
-      omniauth-oauth2
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
@@ -526,7 +531,7 @@ DEPENDENCIES
   newrelic_rpm (= 3.6.5.130)
   omniauth
   omniauth-facebook (= 1.4.0)
-  omniauth-google-oauth2
+  omniauth-google-oauth2!
   omniauth-oauth2
   omniauth-twitter
   paper_trail (>= 3.0.0.rc2)
