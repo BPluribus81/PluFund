@@ -130,16 +130,17 @@ group :development do
 end
 
 group :test, :development do
-  gem 'rspec-rails', '~> 2.14.0'
   gem 'pry'
 end
 
 group :test do
+  gem 'rspec-rails', '~> 2.14.0' # revised
   gem 'fakeweb'
   gem 'poltergeist'
   gem 'launchy'
   gem 'database_cleaner'
-  gem 'shoulda', :require => false
+  gem 'shoulda-context', '1.1.6'
+  gem 'shoulda-matchers', '2.5.0'
   gem 'factory_girl_rails'
   gem 'capybara',   '~> 2.1.0'
   gem 'jasmine'
