@@ -545,7 +545,7 @@ DEPENDENCIES
   ranked-model
   rmagick
   routing-filter (~> 0.4.0.pre)
-  rspec-rails (~> 2.14.0)
+  rspec-rails (= 2.14.0)
   sass-rails (~> 4.0.0)
   schema_associations
   schema_plus

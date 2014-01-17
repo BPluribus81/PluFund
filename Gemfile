@@ -134,7 +134,7 @@ group :test, :development do
 end
 
 group :test do
-  gem 'rspec-rails', '~> 2.14.0' # revised
+  gem 'rspec-rails', '2.14.0' # revised
   gem 'fakeweb'
   gem 'poltergeist'
   gem 'launchy'
