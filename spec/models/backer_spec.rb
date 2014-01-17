@@ -9,15 +9,12 @@ describe Backer do
   let(:sucessful_project_backer){ create(:backer, state: 'confirmed', user: user, project: successful_project) }
   let(:not_confirmed_backer){ create(:backer, user: user, project: unfinished_project) }
   let(:valid_refund){ create(:backer, state: 'confirmed', user: user, project: failed_project) }
-
-
   describe "Associations" do
     it { should have_many(:payment_notifications) }
     it { should belong_to(:project) }
     it { should belong_to(:user) }
     it { should belong_to(:reward) }
   end
-
   describe "Validations" do
     it{ should validate_presence_of(:project) }
     it{ should validate_presence_of(:user) }
@@ -26,22 +23,13 @@ describe Backer do
     it{ should allow_value(10).for(:value) }
     it{ should allow_value(20).for(:value) }
   end
-
   describe ".confirmed_today" do
-    before do
-      3.times { create(:backer, state: 'confirmed', confirmed_at: 2.days.ago) }
-      4.times { create(:backer, state: 'confirmed', confirmed_at: 6.days.ago) }
-
-      #TODO: need to investigate this timestamp issue when
-      # use DateTime.now or Time.now
-      7.times { create(:backer, state: 'confirmed', confirmed_at: 3.hours.from_now) }
-    end
-
-    subject { Backer.confirmed_today }
-
-    it { should have(7).items }
+    let(:backer1) { create(:backer, state: 'confirmed', confirmed_at: '2014-01-14') }
+    let(:backer2) { create(:backer, state: 'confirmed', confirmed_at: '2014-01-15 00:00:00') }
+    let(:backer3) { create(:backer, state: 'confirmed', confirmed_at: '2014-01-15 23:59:59') }
+    subject { Timecop.freeze(Time.zone.local(2014,1,15,21,30)) { Backer.confirmed_today.order(:confirmed_at) } }
+    it { should == [backer2, backer3] }
   end
-
   describe ".between_values" do
     let(:start_at) { 10 }
     let(:ends_at) { 20 }
@@ -54,17 +42,14 @@ describe Backer do
     end
     it { should have(3).itens }
   end
-
   describe ".can_cancel" do
     subject { Backer.can_cancel}
-
     context "when backer is in time to wait the confirmation" do
       before do
         create(:backer, state: 'waiting_confirmation', created_at: 3.weekdays_ago)
       end
       it { should have(0).item }
     end
-
     context "when backer is by bank transfer and is passed the confirmation time" do
       before do
         create(:backer, state: 'waiting_confirmation', payment_choice: 'DebitoBancario', created_at: 2.weekdays_ago)
@@ -72,7 +57,6 @@ describe Backer do
       end
       it { should have(1).item }
     end
-
     context "when we have backers that is passed the confirmation time" do
       before do
         create(:backer, state: 'waiting_confirmation', created_at: 3.weekdays_ago)
@@ -81,7 +65,6 @@ describe Backer do
       it { should have(1).itens }
     end
   end
-
   describe "#update_current_billing_info" do
     let(:backer) { build(:backer, user: user) }
     let(:user) {
@@ -109,7 +92,6 @@ describe Backer do
     its(:address_phone_number){ should eq(user.phone_number) }
     its(:payer_document){ should eq(user.cpf) }
   end
-
   describe "#update_user_billing_info" do
     let(:backer) { create(:backer) }
     let(:user) { backer.user }
@@ -125,18 +107,14 @@ describe Backer do
           cpf: backer.payer_document
       }
     }
-
     before do
       user.should_receive(:update_attributes).with(backer_attributes)
     end
-
     it("should update user billing info attributes") { backer.update_user_billing_info}
   end
-
   describe '#recommended_projects' do
     subject{ backer.recommended_projects }
     let(:backer){ create(:backer) }
-
     context "when we have another projects in the same category" do
       before do
         @recommended = create(:project, category: backer.project.category)
@@ -145,7 +123,6 @@ describe Backer do
       end
       it{ should eq [@recommended] }
     end
-
     context "when another user has backed the same project" do
       before do
         @another_backer = create(:backer, project: backer.project)
@@ -157,8 +134,6 @@ describe Backer do
       it{ should eq [@recommended] }
     end
   end
-
-
   describe ".can_refund" do
     subject{ Backer.can_refund.load }
     before do
@@ -172,7 +147,6 @@ describe Backer do
     end
     it{ should == [valid_refund] }
   end
-
   describe "#can_refund?" do
     subject{ backer.can_refund? }
     before do
@@ -181,28 +155,23 @@ describe Backer do
       successful_project.update_attributes state: 'successful'
       failed_project.update_attributes state: 'failed'
     end
-
     context "when project is successful" do
       let(:backer){ sucessful_project_backer }
       it{ should be_false }
     end
-
     context "when project is not finished" do
       let(:backer){ unfinished_project_backer }
       it{ should be_false }
     end
-
     context "when backer is not confirmed" do
       let(:backer){ not_confirmed_backer }
       it{ should be_false }
     end
-
     context "when it's a valid refund" do
       let(:backer){ valid_refund }
       it{ should be_true }
     end
   end
-
   describe "#credits" do
     subject{ user.credits.to_f }
     context "when backs are confirmed and not done with credits but project is successful" do
@@ -212,7 +181,6 @@ describe Backer do
       end
       it{ should == 0 }
     end
-
     context "when backs are confirmed and not done with credits" do
       before do
         create(:backer, state: 'confirmed', user: user, project: failed_project)
@@ -220,7 +188,6 @@ describe Backer do
       end
       it{ should == 10 }
     end
-
     context "when backs are done with credits" do
       before do
         create(:backer, credits: true, state: 'confirmed', user: user, project: failed_project)
@@ -228,7 +195,6 @@ describe Backer do
       end
       it{ should == 0 }
     end
-
     context "when backs are not confirmed" do
       before do
         create(:backer, user: user, project: failed_project, state: 'pending')
@@ -237,16 +203,14 @@ describe Backer do
       it{ should == 0 }
     end
   end
-
   describe "#display_value" do
     context "when the value has decimal places" do
       subject{ build(:backer, value: 99.99).display_value }
-      it{ should == "R$ 100" }
+      it{ should == "$99.99" }
     end
-
     context "when the value does not have decimal places" do
       subject{ build(:backer, value: 1).display_value }
-      it{ should == "R$ 1" }
+      it{ should == "$1.00" }
     end
   end
 end

@@ -381,7 +381,7 @@ describe Project do
     end
     context "when project_total exists" do
       before do
-        project_total = mock()
+        project_total = double()
         project_total.stub(:pledged).and_return(10.0)
         project.stub(:project_total).and_return(project_total)
       end
@@ -399,7 +399,7 @@ describe Project do
 
     context "when project_total exists" do
       before do
-        project_total = mock()
+        project_total = double()
         project_total.stub(:total_payment_service_fee).and_return(4.0)
         project.stub(:project_total).and_return(project_total)
       end
@@ -418,7 +418,7 @@ describe Project do
     end
     context "when project_total exists" do
       before do
-        project_total = mock()
+        project_total = double()
         project_total.stub(:total_backers).and_return(1)
         project.stub(:project_total).and_return(project_total)
       end

@@ -146,6 +146,7 @@ group :test do
   gem 'jasmine'
   gem 'coveralls', require: false
   gem 'selenium-webdriver', '~> 2.35.1'
+  gem 'timecop', '0.7.1' # revised
 end
 
 gem 'sass-rails', '~> 4.0.0'
